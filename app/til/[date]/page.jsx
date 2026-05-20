@@ -14,13 +14,23 @@ export async function generateMetadata({ params }) {
 
 export default async function TilDetailPage({ params }) {
   const { date } = await params
-  const filePath = path.join(process.cwd(), 'TIL', `${date}.md`)
+  const tilDir = path.join(process.cwd(), 'TIL')
+  const filePath = path.join(tilDir, `${date}.md`)
 
   if (!fs.existsSync(filePath)) {
     notFound()
   }
 
   const content = fs.readFileSync(filePath, 'utf-8')
+
+  const allDates = fs.readdirSync(tilDir)
+    .filter((f) => f.endsWith('.md'))
+    .map((f) => f.replace('.md', ''))
+    .sort()
+
+  const currentIndex = allDates.indexOf(date)
+  const prevDate = currentIndex > 0 ? allDates[currentIndex - 1] : null
+  const nextDate = currentIndex < allDates.length - 1 ? allDates[currentIndex + 1] : null
 
   return (
     <div style={styles.wrapper}>
@@ -29,13 +39,21 @@ export default async function TilDetailPage({ params }) {
       <article style={styles.article}>
         <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeHighlight]}>{content}</ReactMarkdown>
       </article>
+      <nav style={styles.nav}>
+        {prevDate ? (
+          <Link href={`/til/${prevDate}`} style={styles.navLink}>← {prevDate}</Link>
+        ) : <span />}
+        {nextDate ? (
+          <Link href={`/til/${nextDate}`} style={styles.navLink}>{nextDate} →</Link>
+        ) : <span />}
+      </nav>
     </div>
   )
 }
 
 const styles = {
   wrapper: {
-    maxWidth: '720px',
+    maxWidth: '1080px',
     margin: '0 auto',
     padding: '2rem 1rem',
   },
@@ -56,5 +74,18 @@ const styles = {
   article: {
     lineHeight: 1.8,
     fontSize: '0.95rem',
+  },
+  nav: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    marginTop: '2rem',
+    paddingTop: '1rem',
+    borderTop: '1px solid var(--nextra-border, #e5e7eb)',
+  },
+  navLink: {
+    color: '#2563eb',
+    textDecoration: 'none',
+    fontSize: '0.9rem',
+    fontWeight: 500,
   },
 }
