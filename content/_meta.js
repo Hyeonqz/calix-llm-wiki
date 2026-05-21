@@ -23,5 +23,11 @@ export default {
     theme: {
       toc: false
     }
+  },
+  login: {
+    display: 'hidden'
+  },
+  til: {
+    display: 'hidden'
   }
 }
