@@ -9,19 +9,19 @@ export default {
   'claude-code': {
     title: 'Claude Code'
   },
+  concepts: {
+    title: 'Concepts'
+  },
   'cross-domain': {
-    title: 'Cross-Domain Analysis'
+    title: 'Cross-Domain'
+  },
+  thinking: {
+    title: 'Thinking'
   },
   log: {
     title: 'Activity Log',
     theme: {
       toc: false
     }
-  },
-  login: {
-    display: 'hidden'
-  },
-  til: {
-    display: 'hidden'
   }
 }
