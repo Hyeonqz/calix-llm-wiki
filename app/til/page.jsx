@@ -34,7 +34,7 @@ export default function TilListPage() {
 
 const styles = {
   wrapper: {
-    maxWidth: '1080px',
+    maxWidth: '1130px',
     margin: '0 auto',
     padding: '2rem 1rem',
   },
