@@ -12,6 +12,7 @@ LLM이 유지/관리하는 개인 지식 베이스.
 
 - [Claude Code](/claude-code) — Anthropic의 공식 CLI 코딩 에이전트. 설정, 훅, skill, subagent, MCP 등
 - [Database](/database) — RDB 스키마 설계, 타입 선택(시간/숫자), 인덱싱, 쿼리 최적화
+- [Backend Architecture](/backend-architecture) — 프레임워크 중립적 백엔드 설계 원칙. 계층 분리, 데이터 모델 경계, 의존 방향
 
 ## Cross-Domain
 

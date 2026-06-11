@@ -21,6 +21,9 @@ export default {
   database: {
     title: 'Database'
   },
+  'backend-architecture': {
+    title: 'Backend Architecture'
+  },
   'cross-domain': {
     title: 'Cross-Domain'
   },
