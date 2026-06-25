@@ -1,13 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 
 function LoginForm() {
-  const router = useRouter()
   const searchParams = useSearchParams()
-  const from = searchParams.get('from') || '/til'
+  const raw = searchParams.get('from') || ''
+  const from = raw.startsWith('/') && !raw.startsWith('//') && raw !== '/login' ? raw : '/til'
 
   const [id, setId] = useState('')
   const [pw, setPw] = useState('')
@@ -29,7 +29,7 @@ function LoginForm() {
     setLoading(false)
 
     if (data.ok) {
-      router.push(from)
+      window.location.href = from
     } else {
       setError(data.message)
     }

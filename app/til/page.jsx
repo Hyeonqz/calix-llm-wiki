@@ -1,7 +1,9 @@
 import fs from 'fs'
 import path from 'path'
-import Link from 'next/link'
 import styles from './til.module.css'
+import { computeStreak } from './streakUtils'
+import TilLogoutButton from './TilLogoutButton'
+import TilInteractiveSection from './TilInteractiveSection'
 
 export const metadata = { title: 'TIL | Calix Wiki' }
 
@@ -17,6 +19,7 @@ export default function TilListPage() {
   const latest = entries[0]
   const totalSections = entries.reduce((sum, entry) => sum + entry.sectionCount, 0)
   const activeDays = entries.length
+  const streak = computeStreak(entries)
 
   return (
     <main className={styles.wrapper}>
@@ -28,33 +31,23 @@ export default function TilListPage() {
             날짜별 기록을 월, 주, 일 단위로 묶어 최근 흐름과 빈도를 빠르게 훑어볼 수 있습니다.
           </p>
         </div>
-        <div className={styles.summaryGrid} aria-label="TIL summary">
-          <SummaryMetric label="기록일" value={activeDays} />
-          <SummaryMetric label="학습 항목" value={totalSections} />
-          <SummaryMetric label="최근 기록" value={latest?.displayDate ?? '-'} />
+        <div>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '8px' }}>
+            <TilLogoutButton />
+          </div>
+          <div className={styles.summaryGrid} aria-label="TIL summary">
+            <SummaryMetric label="기록일" value={activeDays} />
+            <SummaryMetric label="학습 항목" value={totalSections} />
+            <SummaryMetric label="최근 기록" value={latest?.displayDate ?? '-'} />
+            <SummaryMetric label="최장 스트릭" value={`${streak.longest}일`} />
+          </div>
         </div>
       </header>
 
       {entries.length === 0 ? (
         <section className={styles.empty}>아직 기록이 없습니다.</section>
       ) : (
-        <div className={styles.layout}>
-          <aside className={styles.monthRail} aria-label="월별 바로가기">
-            <div className={styles.railTitle}>월별</div>
-            {months.map((month) => (
-              <a key={month.key} href={`#month-${month.key}`} className={styles.monthLink}>
-                <span>{month.label}</span>
-                <strong>{month.entries.length}</strong>
-              </a>
-            ))}
-          </aside>
-
-          <section className={styles.timeline} aria-label="TIL timeline">
-            {months.map((month) => (
-              <MonthSection key={month.key} month={month} />
-            ))}
-          </section>
-        </div>
+        <TilInteractiveSection entries={entries} months={months} />
       )}
     </main>
   )
@@ -69,45 +62,6 @@ function SummaryMetric({ label, value }) {
   )
 }
 
-function MonthSection({ month }) {
-  return (
-    <section id={`month-${month.key}`} className={styles.monthSection}>
-      <header className={styles.monthHeader}>
-        <div>
-          <h2>{month.label}</h2>
-          <p>{month.entries.length}일 기록, {month.sectionCount}개 학습 항목</p>
-        </div>
-      </header>
-
-      <div className={styles.weekStack}>
-        {month.weeks.map((week) => (
-          <section key={week.key} className={styles.weekSection}>
-            <div className={styles.weekHeader}>
-              <span>{week.label}</span>
-              <strong>{week.entries.length}일</strong>
-            </div>
-            <div className={styles.dayGrid}>
-              {week.entries.map((entry) => (
-                <Link key={entry.date} href={`/til/${entry.date}`} className={styles.dayCard}>
-                  <span className={styles.dateLine}>
-                    <strong>{entry.day}</strong>
-                    <span>{entry.weekday}</span>
-                  </span>
-                  <span className={styles.cardDate}>{entry.date}</span>
-                  <span className={styles.cardTitle}>{entry.title}</span>
-                  <span className={styles.cardMeta}>
-                    {entry.sectionCount} sections
-                    {entry.tags.length > 0 ? ` · ${entry.tags.slice(0, 2).join(', ')}` : ''}
-                  </span>
-                </Link>
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
-    </section>
-  )
-}
 
 function getTilEntries() {
   const tilDir = path.join(process.cwd(), 'TIL')
