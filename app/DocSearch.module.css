@@ -1,0 +1,140 @@
+.wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.inputWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  color: #9ca3af;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.input {
+  width: 200px;
+  padding: 6px 12px 6px 32px;
+  border: 1px solid var(--nextra-border, #e5e7eb);
+  border-radius: 8px;
+  background: var(--nextra-bg, #fff);
+  color: inherit;
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.15s, width 0.2s;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:focus {
+  border-color: #0f766e;
+  width: 260px;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 320px;
+  max-height: 360px;
+  overflow-y: auto;
+  background: var(--nextra-bg, #fff);
+  border: 1px solid var(--nextra-border, #e5e7eb);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  z-index: 9999;
+  padding: 4px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  width: 100%;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.1s;
+}
+
+.item:hover,
+.itemActive {
+  background: #f0fdf9;
+}
+
+.itemTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.4;
+}
+
+.itemPath {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.empty {
+  padding: 16px 12px;
+  font-size: 0.88rem;
+  color: #9ca3af;
+  text-align: center;
+}
+
+/* Dark mode */
+:global(html.dark) .input {
+  background: #171717;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+:global(html.dark) .input:focus {
+  border-color: #0f766e;
+}
+
+:global(html.dark) .dropdown {
+  background: #1f1f1f;
+  border-color: #374151;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+:global(html.dark) .item:hover,
+:global(html.dark) .itemActive {
+  background: #0c2a27;
+}
+
+:global(html.dark) .itemTitle {
+  color: #f9fafb;
+}
+
+:global(html.dark) .itemPath {
+  color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 140px;
+  }
+
+  .input:focus {
+    width: 180px;
+  }
+
+  .dropdown {
+    min-width: 260px;
+    right: 0;
+    left: auto;
+  }
+}

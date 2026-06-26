@@ -2,8 +2,38 @@ import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
 import 'nextra-theme-docs/style.css'
 import './globals.css'
+import DocSearch from './DocSearch'
+
+function buildDocsIndex() {
+  const contentDir = path.join(process.cwd(), 'content')
+  const SKIP = new Set(['index', 'log'])
+  const pages = []
+
+  function walk(dir, urlPrefix = '') {
+    for (const item of fs.readdirSync(dir).sort()) {
+      const fullPath = path.join(dir, item)
+      if (fs.statSync(fullPath).isDirectory()) {
+        walk(fullPath, `${urlPrefix}/${item}`)
+      } else if (item.endsWith('.md')) {
+        const slug = item.replace('.md', '')
+        if (urlPrefix === '' && SKIP.has(slug)) continue
+        const urlPath = slug === 'index' ? urlPrefix : `${urlPrefix}/${slug}`
+        const content = fs.readFileSync(fullPath, 'utf-8')
+        const titleMatch = content.match(/^title:\s*["']?(.+?)["']?\s*$/m)
+        const h1Match = content.match(/^#\s+(.+)$/m)
+        const title = (titleMatch?.[1] || h1Match?.[1] || slug).replace(/^["']|["']$/g, '')
+        pages.push({ title, path: urlPath })
+      }
+    }
+  }
+
+  walk(contentDir)
+  return pages
+}
 
 export const metadata = {
   title: 'Calix Wiki',
@@ -11,6 +41,8 @@ export const metadata = {
 }
 
 export default async function RootLayout({ children }) {
+  const docsIndex = buildDocsIndex()
+
   return (
     <html lang="ko" dir="ltr" suppressHydrationWarning>
       <Head>
@@ -27,6 +59,7 @@ export default async function RootLayout({ children }) {
               logo={<span style={{ fontWeight: 700, fontSize: '1.1rem' }}>Calix Wiki</span>}
               projectLink="https://github.com/Hyeonqz/calix-wiki"
             >
+              <DocSearch pages={docsIndex} />
               <Link
                 href="/til"
                 style={{ fontSize: '0.9rem', fontWeight: 600, opacity: 0.8 }}
