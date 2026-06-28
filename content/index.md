@@ -14,6 +14,7 @@ LLM이 유지/관리하는 개인 지식 베이스.
 - [Database](/database) — RDB 스키마 설계, 타입 선택(시간/숫자), 인덱싱, 쿼리 최적화
 - [Backend Architecture](/backend-architecture) — 프레임워크 중립적 백엔드 설계 원칙. 계층 분리, 데이터 모델 경계, 의존 방향
 - [Java Concurrency](/java-concurrency) — java.util.concurrent 학습 노트. CountDownLatch 등 동기화 도구, 스레드 풀, 가상 스레드
+- [AI Harness](/ai-harness) — AI 코딩 에이전트 위의 플러그인·에이전트 생태계 (OMC, Superpowers, gstack 등)
 
 ## Cross-Domain
 

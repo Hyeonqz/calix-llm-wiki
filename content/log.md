@@ -123,3 +123,16 @@ kakaopay 과제 동시성 테스트 논의에서 도출. backend-architecture·s
 - sources/java-concurrency/ (신규 디렉터리)
 - content/index.md (Domains에 java-concurrency 등록)
 - content/_meta.js (사이드바 추가)
+
+## [2026-06-28] ingest | gstack (Garry Tan의 Claude Code 스킬 팩) 페이지 추가
+
+YC CEO Garry Tan의 오픈소스 Claude Code 설정 `gstack` 분석 후 ai-harness/plugins에 페이지 추가.
+9개 전문가 역할(CEO/EM/디자이너/스태프엔지니어/QA/릴리스/보안/작가) 기반 가상 엔지니어링 팀,
+"Planning is not review" 단계 분리 철학, 생명주기별 23개+ 슬래시 커맨드 카탈로그, 설치/지원 호스트,
+한계 정리. Superpowers·OMC와 비교 링크. 마스터 index에 누락돼 있던 ai-harness 도메인도 등록(2-hop 보정).
+goddaehee 블로그(https://goddaehee.tistory.com/570) + 공식 GitHub README 기반.
+
+- content/ai-harness/plugins/gstack.md (신규)
+- content/ai-harness/plugins/_meta.js (gstack 추가)
+- content/ai-harness/index.md (Plugins에 gstack 링크)
+- content/index.md (Domains에 ai-harness 등록)

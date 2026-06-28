@@ -15,6 +15,7 @@ Claude Code, Codex 같은 코딩 에이전트 위에 올라가는 harness(플러
 - [Oh My ClaudeCode (OMC)](/ai-harness/plugins/omc) — 멀티 에이전트 오케스트레이션 레이어
 - [OMX](/ai-harness/plugins/omx) — Claude Code 확장 플러그인
 - [Superpowers](/ai-harness/plugins/superpowers) — 스킬 기반 워크플로우 자동화
+- [gstack](/ai-harness/plugins/gstack) — Garry Tan(YC CEO)의 역할 기반 가상 엔지니어링 팀 스킬 팩
 
 ## Agents
 
