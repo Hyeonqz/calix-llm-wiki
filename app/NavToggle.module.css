@@ -1,0 +1,49 @@
+.seg {
+  display: inline-flex;
+  align-items: center;
+  background: #f2f4f6;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+:global(html.dark) .seg {
+  background: #1e2530;
+}
+
+.item {
+  padding: 5px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8b95a1;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.item:hover {
+  color: #4e5968;
+}
+
+:global(html.dark) .item:hover {
+  color: #a8b1bb;
+}
+
+.itemActive {
+  composes: item;
+  background: #fff;
+  color: #191f28;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0.5px rgba(0, 0, 0, 0.04);
+}
+
+.itemActive:hover {
+  color: #191f28;
+}
+
+:global(html.dark) .itemActive {
+  background: #333d4b;
+  color: #ededed;
+}
+
+:global(html.dark) .itemActive:hover {
+  color: #ededed;
+}

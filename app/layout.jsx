@@ -7,6 +7,7 @@ import path from 'path'
 import 'nextra-theme-docs/style.css'
 import './globals.css'
 import DocSearch from './DocSearch'
+import NavToggle from './NavToggle'
 
 function buildDocsIndex() {
   const contentDir = path.join(process.cwd(), 'content')
@@ -59,6 +60,7 @@ export default async function RootLayout({ children }) {
               logo={<span style={{ fontWeight: 700, fontSize: '1.1rem' }}>Calix Wiki</span>}
               projectLink="https://github.com/Hyeonqz/calix-wiki"
             >
+              <NavToggle />
               <DocSearch pages={docsIndex} />
               <Link
                 href="/til"
