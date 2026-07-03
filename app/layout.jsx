@@ -57,10 +57,15 @@ export default async function RootLayout({ children }) {
         <Layout
           navbar={
             <Navbar
-              logo={<span style={{ fontWeight: 700, fontSize: '1.1rem' }}>Calix Wiki</span>}
+              logo={
+                <span style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                  <Link href="/" style={{ fontWeight: 700, fontSize: '1.1rem' }}>Calix Wiki</Link>
+                  <NavToggle />
+                </span>
+              }
+              logoLink={false}
               projectLink="https://github.com/Hyeonqz/calix-wiki"
             >
-              <NavToggle />
               <DocSearch pages={docsIndex} />
               <Link
                 href="/til"
