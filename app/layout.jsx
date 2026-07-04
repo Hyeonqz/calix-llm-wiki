@@ -76,6 +76,7 @@ export default async function RootLayout({ children }) {
             </Navbar>
           }
           footer={<Footer>MIT {new Date().getFullYear()} © Calix</Footer>}
+          search={null}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/Hyeonqz/calix-wiki/tree/main/wiki"
           sidebar={{ defaultMenuCollapseLevel: 1 }}

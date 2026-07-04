@@ -12,6 +12,7 @@ Spring Framework / Spring Boot 관련 설계 패턴, 트랜잭션, 테스트 전
 - [@TransactionalEventListener + @Transactional 충돌 해결](/spring/transactional-event-listener) — AFTER_COMMIT 이벤트 핸들러에서 전파 레벨 제약과 fallbackExecution 처리
 - [Bean 초기화 순서 제어](/spring/bean-initialization-order) — @PostConstruct vs ApplicationReadyEvent, @DependsOn을 이용한 초기화 순서 보장
 - [단위 테스트 vs 통합 테스트](/spring/unit-test-vs-integration-test) — 선택 기준, Mockito 작성 전략, RestClient fluent chain mock 패턴
+- [트랜잭션 격리수준 (@Transactional 기준)](/spring/transaction-isolation-levels) — 이상현상 3종·4단계·MySQL RR 특이점, 격리수준이 못 막는 lost update, isolation vs propagation 구분
 
 ## Related
 
