@@ -50,6 +50,8 @@ export function getPosts() {
         date: data.date || '',
         displayDate: data.date ? formatDate(data.date) : '',
         category: data.category || '기타',
+        hero: data.hero || '',
+        heroCaption: data.heroCaption || '',
         readMinutes: Math.max(1, Math.round(body.length / 700)),
         body,
         raw,

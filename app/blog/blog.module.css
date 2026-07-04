@@ -343,10 +343,38 @@
   font-weight: 800;
 }
 
+/* ---------- 히어로(만화 요약) ---------- */
+.hero {
+  margin: 0 0 44px;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+
+.hero figcaption {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
 .prose {
   font-size: 17px;
   line-height: 1.78;
   color: #333d4b;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 28px 0;
 }
 
 :global(html.dark) .prose {

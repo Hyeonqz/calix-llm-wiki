@@ -47,6 +47,12 @@ export default async function BlogPostPage({ params }) {
           <span>{post.readMinutes}분 읽기</span>
           <DownloadMd raw={post.raw} slug={post.slug} />
         </div>
+        {post.hero && (
+          <figure className={styles.hero}>
+            <img src={post.hero} alt={post.heroCaption || post.title} />
+            {post.heroCaption && <figcaption>{post.heroCaption}</figcaption>}
+          </figure>
+        )}
         <article className={styles.prose}>
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
