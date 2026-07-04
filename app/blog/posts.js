@@ -1,7 +1,21 @@
 import fs from 'fs'
 import path from 'path'
+import GithubSlugger from 'github-slugger'
 
 const POSTS_DIR = path.join(process.cwd(), 'posts')
+
+// h2/h3 헤딩 → 목차 항목. rehype-slug와 동일한 github-slugger로 id 생성해 앵커 일치.
+function buildToc(body) {
+  const slugger = new GithubSlugger()
+  const toc = []
+  for (const line of body.split('\n')) {
+    const m = line.match(/^(#{2,3})\s+(.+?)\s*#*\s*$/)
+    if (!m) continue
+    const text = m[2].replace(/[*`_]/g, '')
+    toc.push({ depth: m[1].length, text, id: slugger.slug(text) })
+  }
+  return toc
+}
 
 function parseFrontmatter(raw) {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?/)
@@ -38,6 +52,8 @@ export function getPosts() {
         category: data.category || '기타',
         readMinutes: Math.max(1, Math.round(body.length / 700)),
         body,
+        raw,
+        toc: buildToc(body),
       }
     })
     .sort((a, b) => b.date.localeCompare(a.date))

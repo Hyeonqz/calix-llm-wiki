@@ -180,8 +180,99 @@
 /* ---------- 상세 ---------- */
 .articleWrap {
   composes: wrap;
-  max-width: 680px;
+  max-width: 1040px;
   padding-top: 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 56px;
+  align-items: start;
+}
+
+.articleMain {
+  min-width: 0;
+  max-width: 680px;
+}
+
+.articleAside {
+  position: sticky;
+  top: calc(var(--nextra-navbar-height, 64px) + 24px);
+}
+
+/* ---------- 목차 ---------- */
+.toc {
+  border-left: 2px solid var(--line);
+  padding-left: 18px;
+}
+
+.tocTitle {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.tocList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tocLink {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-3);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.tocLink:hover {
+  color: var(--ink-2);
+}
+
+.tocLinkActive {
+  composes: tocLink;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+/* ---------- 다운로드 ---------- */
+.downloadBtn {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.downloadBtn:hover {
+  background: var(--surface);
+  border-color: var(--ink-3);
+}
+
+@media (max-width: 1024px) {
+  .articleWrap {
+    display: block;
+    max-width: 680px;
+  }
+
+  .articleAside {
+    display: none;
+  }
 }
 
 .back {
