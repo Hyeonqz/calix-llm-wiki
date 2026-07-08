@@ -147,3 +147,19 @@ Spring isolation 속성 동작(커넥션 단위 SET, 실무에서 거의 안 바
 - content/spring/transaction-isolation-levels.md (신규)
 - content/spring/index.md (Topics 링크 추가)
 - content/spring/_meta.js (사이드바 추가)
+
+## [2026-07-08] ingest | OS 면접 기본기 (프로세스·스레드·동기화) 페이지 추가
+
+2026-07-07 카카오페이손보 실무진 면접에서 받은 OS 질문 4개(① 프로세스 vs 스레드 ② 멀티스레드 동작 방식
+③ 공유 자원 선점 ④ 뮤텍스락 vs 세마포어)를 하나의 흐름으로 정리. 프로세스=격리/스레드=공유 비교표,
+동시성 vs 병렬성·컨텍스트 스위칭, 경쟁 조건·임계 영역·상호 배제(lost update Java 예시),
+뮤텍스(1개+소유권) vs 세마포어(N개+무소유권 카운터) 비교표(화장실/주차장 비유)·Java Semaphore 예시,
+구두 30초 요약 스크립트. 신규 operating-system 도메인 생성. GPT 만화 상단 첨부 예정.
+출처: TIL/2026-07-07.md (면접 회고).
+
+- content/operating-system/process-thread-synchronization.md (신규)
+- content/operating-system/index.md (신규 도메인 MOC)
+- content/operating-system/_meta.js (신규)
+- content/index.md (Domains에 operating-system 등록)
+- content/_meta.js (사이드바에 operating-system 추가)
+- sources/operating-system/ (디렉터리 생성)
