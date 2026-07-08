@@ -13,3 +13,5 @@
 .next/
 out/
 node_modules/
+logs/*.md
+!logs/README.md

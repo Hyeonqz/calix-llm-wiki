@@ -163,3 +163,32 @@ Spring isolation 속성 동작(커넥션 단위 SET, 실무에서 거의 안 바
 - content/index.md (Domains에 operating-system 등록)
 - content/_meta.js (사이드바에 operating-system 추가)
 - sources/operating-system/ (디렉터리 생성)
+
+## [2026-07-08] ingest | 인덱스 기본기 (B-Tree·카디널리티) 페이지 추가
+
+2026-07-07 카카오페이손보 실무진 면접에서 받은 DB 질문 3개(① 인덱스를 왜 걸어야 하는지
+② 인덱스 동작 방식 ③ 회원 테이블(name, age) 중 어디에 인덱스를 걸지)를 하나의 흐름으로 정리.
+풀스캔 O(N) vs 인덱스 O(log N) 비교, B-Tree 동작 방식(정렬된 자료구조·내부/리프 노드·리프
+연결 리스트로 범위 검색), 인덱스의 대가(쓰기 오버헤드·저장공간), 카디널리티 개념과
+"name vs age 중 카디널리티 높은 name에 인덱스" 답, 복합 인덱스 최좌측 접두사(leftmost prefix)
+짧게, CREATE INDEX 예시, 구두 30초 요약. 기존 database 도메인에 추가.
+출처: TIL/2026-07-07.md (면접 회고).
+
+- content/database/index-fundamentals.md (신규)
+- content/database/index.md (Topics 링크 추가)
+- content/database/_meta.js (사이드바 추가)
+
+## [2026-07-08] ingest | TCP vs UDP (네트워크 기본기) 페이지 추가
+
+2026-07-07 카카오페이손보 실무진 면접에서 받은 네트워크 질문 3개(① TCP vs UDP 차이 ② UDP 사용처
+③ 유튜브는 TCP/UDP 중 무엇을 쓰나)를 정리. TCP(연결/재전송/순서/혼잡제어) vs UDP(비연결/저오버헤드) 비교표,
+UDP 사용처(실시간 스트리밍·게임·VoIP·DNS, "지연이 유실보다 치명적일 때") 원리, 유튜브 함정 질문 해설
+(일반 VOD는 TCP, 최신 유튜브는 UDP 기반 QUIC/HTTP3, 초저지연 실시간은 UDP), 구두 30초 요약.
+신규 network 도메인 생성. 출처: TIL/2026-07-07.md (면접 회고).
+
+- content/network/tcp-vs-udp.md (신규)
+- content/network/index.md (신규 도메인 MOC)
+- content/network/_meta.js (신규)
+- content/index.md (Domains에 network 등록)
+- content/_meta.js (사이드바에 network 추가)
+- sources/network/ (디렉터리 생성)

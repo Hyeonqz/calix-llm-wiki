@@ -27,6 +27,9 @@ export default {
   'operating-system': {
     title: 'Operating System'
   },
+  network: {
+    title: 'Network'
+  },
   'java-concurrency': {
     title: 'Java Concurrency'
   },

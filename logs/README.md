@@ -5,7 +5,7 @@ Claude Code 세션 종료 시점마다 자동 덤프되는 대화 로그.
 - 파일 형식: `YYYY-MM-DD-{sessionId:0:8}.md`
 - 생성 주체: 글로벌 Stop 훅 (`~/.claude/hooks/wiki-session-log.sh`)
 - 렌더링: **Nextra 밖**이라 사이트에는 노출되지 않음
-- 추적: git에 커밋 (개인 위키라 공유 전제, 민감 정보 주의)
+- 추적: **git 무시** (`.gitignore`의 `logs/*.md`). 로컬에만 남으며 커밋되지 않음 (이 README만 추적)
 
 ## 어떻게 동작하나
 
