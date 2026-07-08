@@ -24,6 +24,9 @@ export default {
   'backend-architecture': {
     title: 'Backend Architecture'
   },
+  'operating-system': {
+    title: 'Operating System'
+  },
   'java-concurrency': {
     title: 'Java Concurrency'
   },
