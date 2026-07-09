@@ -208,3 +208,11 @@ package-naming-singular-plural·progress-feedback-patterns는 backend-architectu
 - content/messaging/{index.md,_meta.js,kafka-dlt.md} (신규)
 - content/spring/ (+3 페이지, index·_meta 갱신), content/backend-architecture/ (+3 페이지, index·_meta 갱신)
 - content/index.md (Database 설명 갱신, Messaging 추가), CLAUDE.md (TIL 경로 규칙)
+
+## [2026-07-09] refactor | Cross-Domain 도메인 제거
+
+내용 없이 플레이스홀더만 있던 cross-domain 도메인을 삭제. 폴더·_meta 엔트리 제거, 8개 도메인 index의
+Related 링크 정리(빈 spring Related는 Database·Messaging 링크로 대체), master index의 Cross-Domain 섹션 삭제.
+
+- content/cross-domain/ (삭제)
+- content/_meta.js, content/index.md, 각 도메인 index.md Related 정리

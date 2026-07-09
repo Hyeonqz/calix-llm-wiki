@@ -19,10 +19,6 @@ LLM이 유지/관리하는 개인 지식 베이스.
 - [Java Concurrency](/java-concurrency) — java.util.concurrent 학습 노트. CountDownLatch 등 동기화 도구, 스레드 풀, 가상 스레드
 - [AI Harness](/ai-harness) — AI 코딩 에이전트 위의 플러그인·에이전트 생태계 (OMC, Superpowers, gstack 등)
 
-## Cross-Domain
-
-- [Cross-Domain Analysis](/cross-domain) — 2개 이상 도메인에 걸치는 비교, 패턴 분석
-
 ## Activity
 
 - [Activity Log](/log) — 전체 작업 기록

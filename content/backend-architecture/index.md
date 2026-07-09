@@ -19,4 +19,3 @@ title: Backend Architecture
 
 - [Spring](/spring) — Spring 설계 패턴
 - [Messaging](/messaging) — Kafka 등 메시지 기반 통신
-- [Cross-Domain](/cross-domain)

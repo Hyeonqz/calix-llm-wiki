@@ -24,4 +24,3 @@ title: Java Concurrency
 
 - [Spring](/spring) — 동시성 테스트, 트랜잭션
 - [Backend Architecture](/backend-architecture) — 동시성 제어 설계
-- [Cross-Domain](/cross-domain)

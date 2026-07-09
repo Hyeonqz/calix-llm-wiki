@@ -14,4 +14,3 @@ title: Database
 ## Related
 
 - [Spring](/spring) — 트랜잭션·JPA
-- [Cross-Domain](/cross-domain)

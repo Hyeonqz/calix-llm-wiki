@@ -13,4 +13,3 @@ title: Operating System
 ## Related
 
 - [Java Concurrency](/java-concurrency) — OS 동기화 개념을 Java(JUC)로 구현한 실전 도구
-- [Cross-Domain](/cross-domain)

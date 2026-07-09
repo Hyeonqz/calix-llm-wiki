@@ -13,4 +13,3 @@ title: Network
 ## Related
 
 - [Operating System](/operating-system) — 소켓·I/O 등과 함께 보는 CS 기본기
-- [Cross-Domain](/cross-domain)

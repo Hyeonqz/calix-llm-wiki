@@ -33,9 +33,6 @@ export default {
   'java-concurrency': {
     title: 'Java Concurrency'
   },
-  'cross-domain': {
-    title: 'Cross-Domain'
-  },
   thinking: {
     title: 'Thinking'
   },

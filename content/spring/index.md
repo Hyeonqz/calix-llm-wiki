@@ -19,4 +19,5 @@ Spring Framework / Spring Boot 관련 설계 패턴, 트랜잭션, 테스트 전
 
 ## Related
 
-- [Cross-Domain](/cross-domain)
+- [Database](/database) — MySQL(트랜잭션·JPA), Redis
+- [Messaging](/messaging) — Kafka, 이벤트 발행
