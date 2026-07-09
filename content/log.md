@@ -164,6 +164,22 @@ Spring isolation 속성 동작(커넥션 단위 SET, 실무에서 거의 안 바
 - content/_meta.js (사이드바에 operating-system 추가)
 - sources/operating-system/ (디렉터리 생성)
 
+## [2026-07-08] ingest | 소규모 팀 아키텍처 방법론 + 실패 사례 2개 페이지 추가
+
+세션 대화(QRGW-Senior-Architecture)에서 논의한 "top-down으로 병목 찾아 해결하는 아키텍처 도출법"을
+2개 페이지로 정리. ① 방법론 페이지: 리스크 주도 설계(Fairbanks) 엔진 + C4 하강 경로 + ATAM 경량판
+(품질속성 시나리오 6요소·민감점/절충점·효용트리) + 진화적 아키텍처(fitness function, 대사=FF) + Conway
+역콘웨이 전략 + 전체 순환 루프 + 방법론 트레이드오프/대안 비교표(C4 vs 4+1 vs arc42, 리스크주도 vs
+BDUF vs YAGNI, ATAM vs LAAM, FF vs 리뷰 vs 정적게이트). ② 실패 사례 페이지: Knight Capital($440M/45분,
+배포검증 FF 부재), Segment(MSA→모놀리스 회귀, Conway 위반), Prime Video(분산→모놀리스 90% 절감,
+절충점 오판), TSB(빅뱅 이관 참사, 리스크주도 일정 실패) + 반복 안티패턴표. 웹 리서치로 사실 근거 확보.
+기존 _meta.js/index.md 동기화 누락(ddd-hexagonal, outbox 2개)도 함께 보정.
+
+- content/backend-architecture/architecture-methodology-small-team.md (신규)
+- content/backend-architecture/architecture-failure-lessons.md (신규)
+- content/backend-architecture/_meta.js (신규 2개 + 누락 2개 동기화)
+- content/backend-architecture/index.md (Topics 전체 재정렬)
+
 ## [2026-07-08] ingest | 인덱스 기본기 (B-Tree·카디널리티) 페이지 추가
 
 2026-07-07 카카오페이손보 실무진 면접에서 받은 DB 질문 3개(① 인덱스를 왜 걸어야 하는지
