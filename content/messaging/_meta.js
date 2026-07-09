@@ -1,5 +1,4 @@
 export default {
   index: 'Overview',
-  mysql: 'MySQL',
-  redis: 'Redis'
+  'kafka-dlt': 'Kafka DLT'
 }

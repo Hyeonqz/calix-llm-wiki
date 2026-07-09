@@ -9,9 +9,6 @@ export default {
   'claude-code': {
     title: 'Claude Code'
   },
-  concepts: {
-    title: 'Concepts'
-  },
   'ai-harness': {
     title: 'AI Harness'
   },
@@ -20,6 +17,9 @@ export default {
   },
   database: {
     title: 'Database'
+  },
+  messaging: {
+    title: 'Messaging'
   },
   'backend-architecture': {
     title: 'Backend Architecture'
@@ -46,6 +46,12 @@ export default {
     }
   },
   login: {
+    display: 'hidden'
+  },
+  blog: {
+    display: 'hidden'
+  },
+  til: {
     display: 'hidden'
   }
 }

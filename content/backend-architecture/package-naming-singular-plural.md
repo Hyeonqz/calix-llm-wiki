@@ -55,7 +55,7 @@ public class Event { ... }
 ## 흔한 혼동
 
 - "패키지가 단수면 테이블도 단수로 맞춰야 하지 않나?" → 아니다. 서로 다른 규칙을 따르는 다른 레이어다. 일치시킬 대상이 아니다.
-- "REST 엔드포인트는?" → 컬렉션이라 복수(`GET /api/v1/events`). 이건 테이블과 같은 "집합" 논리다. 단일 리소스는 `GET /events/{id}`로 컬렉션 하위 경로를 쓴다 ([REST Resource Naming](/concepts/rest-resource-naming) 참고).
+- "REST 엔드포인트는?" → 컬렉션이라 복수(`GET /api/v1/events`). 이건 테이블과 같은 "집합" 논리다. 단일 리소스는 `GET /events/{id}`로 컬렉션 하위 경로를 쓴다 ([REST Resource Naming](/backend-architecture/rest-resource-naming) 참고).
 
 ## 결론
 
@@ -65,5 +65,5 @@ public class Event { ... }
 
 ## Related
 
-- [REST API Resource Naming 규칙](/concepts/rest-resource-naming) — 리소스 단수(Document)·복수(Collection) 구분과 동일한 "집합" 논리
+- [REST API Resource Naming 규칙](/backend-architecture/rest-resource-naming) — 리소스 단수(Document)·복수(Collection) 구분과 동일한 "집합" 논리
 - [Concepts Overview](/concepts) — Spring Boot / JPA 실무 모범사례 모음

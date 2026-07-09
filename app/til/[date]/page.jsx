@@ -1,11 +1,11 @@
 import fs from 'fs'
-import path from 'path'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeHighlight from 'rehype-highlight'
 import 'highlight.js/styles/github-dark.css'
+import { collectTilFiles, tilFilePath } from '../tilFiles'
 
 export async function generateMetadata({ params }) {
   const { date } = await params
@@ -14,10 +14,9 @@ export async function generateMetadata({ params }) {
 
 export default async function TilDetailPage({ params }) {
   const { date } = await params
-  const tilDir = path.join(process.cwd(), 'TIL')
-  const filePath = path.join(tilDir, `${date}.md`)
+  const filePath = tilFilePath(date)
 
-  if (!fs.existsSync(filePath)) {
+  if (!filePath) {
     notFound()
   }
 
@@ -27,10 +26,7 @@ export default async function TilDetailPage({ params }) {
   } catch {
     notFound()
   }
-  const allDates = fs.readdirSync(tilDir)
-    .filter((file) => /^\d{4}-\d{2}-\d{2}\.md$/.test(file))
-    .map((file) => file.replace('.md', ''))
-    .sort()
+  const allDates = collectTilFiles().map((entry) => entry.date)
 
   const currentIndex = allDates.indexOf(date)
   const prevDate = currentIndex > 0 ? allDates[currentIndex - 1] : null

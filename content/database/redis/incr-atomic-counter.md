@@ -59,9 +59,9 @@ if current > LIMIT:           # ← 여기서 다른 요청이 끼어들 수 있
     DECR(issued)              # 보상 시도 — 그 사이 상태가 어긋남
 ```
 
-`INCR` 자체는 원자적이지만, **"증가 → 판단 → 보상"이라는 묶음은 원자적이지 않다**. 한도 체크+증가를 **하나의 원자 단위**로 묶으려면 [Lua 스크립트](/redis/transactions-pipelining-lua)를 써야 한다.
+`INCR` 자체는 원자적이지만, **"증가 → 판단 → 보상"이라는 묶음은 원자적이지 않다**. 한도 체크+증가를 **하나의 원자 단위**로 묶으려면 [Lua 스크립트](/database/redis/transactions-pipelining-lua)를 써야 한다.
 
 ## Related
 
-- [명령 묶기: 트랜잭션·파이프라이닝·Lua](/redis/transactions-pipelining-lua) — INCR을 다른 명령과 안전하게 묶는 방법
-- [Redis](/redis) — 도메인 인덱스
+- [명령 묶기: 트랜잭션·파이프라이닝·Lua](/database/redis/transactions-pipelining-lua) — INCR을 다른 명령과 안전하게 묶는 방법
+- [Redis](/database/redis) — 도메인 인덱스

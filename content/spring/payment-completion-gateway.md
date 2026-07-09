@@ -210,5 +210,5 @@ linePayExecutor 스레드
 
 ## Related
 
-- [트랜잭션과 이벤트 발행 모범사례](/concepts/transaction-event-publishing)
-- [Kafka DLT](/concepts/kafka-dlt)
+- [트랜잭션과 이벤트 발행 모범사례](/spring/transaction-event-publishing)
+- [Kafka DLT](/messaging/kafka-dlt)

@@ -45,7 +45,7 @@ return redis.call('INCR', KEYS[1])     -- 발급
 ```
 
 - 스크립트 전체가 **서버에서 원자적으로** 실행 → 도중에 다른 명령이 절대 못 끼어든다.
-- **조건 분기·반복** 가능 → MULTI/EXEC로 못 하는 "읽고 판단해서 쓰기"를 안전하게. [INCR 후 앱에서 보상하는 위험 패턴](/redis/incr-atomic-counter)의 정답.
+- **조건 분기·반복** 가능 → MULTI/EXEC로 못 하는 "읽고 판단해서 쓰기"를 안전하게. [INCR 후 앱에서 보상하는 위험 패턴](/database/redis/incr-atomic-counter)의 정답.
 
 ## RDB 트랜잭션 vs Redis 비교
 
@@ -61,5 +61,5 @@ return redis.call('INCR', KEYS[1])     -- 발급
 
 ## Related
 
-- [INCR — 원자적 카운터](/redis/incr-atomic-counter) — 묶을 대상이 되는 대표 원자 명령
-- [Redis](/redis) — 도메인 인덱스
+- [INCR — 원자적 카운터](/database/redis/incr-atomic-counter) — 묶을 대상이 되는 대표 원자 명령
+- [Redis](/database/redis) — 도메인 인덱스

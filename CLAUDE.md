@@ -22,8 +22,10 @@ content/                        # Wiki pages — you OWN this (Nextra content di
     index.md                    # Domain MOC (도메인 진입점)
     _meta.js                    # Sidebar config
     {subtopic}.md               # 개별 노트 (kebab-case)
-TIL/                            # Today I Learned — 날짜별 일일 기록 (웹 노출 안 됨)
-  YYYY-MM-DD.md               # 하루 1파일, 여러 항목은 H2로 구분
+TIL/                            # Today I Learned — 날짜별 일일 기록 (/til 라우트로 렌더링)
+  YYYY/                         # 연 폴더
+    MM/                         # 월 폴더
+      YYYY-MM-DD.md           # 하루 1파일, 여러 항목은 H2로 구분
 CLAUDE.md                       # This file — schema and rules
 ```
 
@@ -119,7 +121,7 @@ When the user says "lint" or at trigger points above:
 
 When the user says "til" or adds a daily learning entry:
 
-1. Open or create `TIL/YYYY-MM-DD.md` (today's date)
+1. Open or create `TIL/YYYY/MM/YYYY-MM-DD.md` (today's date — 연/월 폴더 자동 생성)
 2. Append a new `##` section following the TIL Format below
 3. If the same domain appears 3+ times across TIL files → suggest wiki promotion
 
@@ -161,7 +163,8 @@ When new information contradicts an existing page, add this block to both pages:
 
 ## TIL Format
 
-TIL 파일은 `TIL/YYYY-MM-DD.md`에 저장. 하루에 여러 항목은 같은 파일에 `##`으로 구분.
+TIL 파일은 `TIL/YYYY/MM/YYYY-MM-DD.md`에 저장 (연/월 폴더로 관리). 하루에 여러 항목은 같은 파일에 `##`으로 구분.
+분기/연 단위 조회는 날짜에서 계산하는 뷰이므로 폴더 구조는 연/월만 유지한다.
 
 ```markdown
 ## {배운 사실을 동사로 시작하는 구체적 제목}

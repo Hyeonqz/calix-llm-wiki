@@ -1,7 +1,7 @@
 import fs from 'fs'
-import path from 'path'
 import styles from './til.module.css'
 import { computeStreak } from './streakUtils'
+import { collectTilFiles } from './tilFiles'
 import TilLogoutButton from './TilLogoutButton'
 import TilInteractiveSection from './TilInteractiveSection'
 
@@ -64,18 +64,10 @@ function SummaryMetric({ label, value }) {
 
 
 function getTilEntries() {
-  const tilDir = path.join(process.cwd(), 'TIL')
-  if (!fs.existsSync(tilDir)) {
-    return []
-  }
-
-  return fs.readdirSync(tilDir)
-    .filter((file) => /^\d{4}-\d{2}-\d{2}\.md$/.test(file))
-    .sort()
+  return collectTilFiles()
     .reverse()
-    .map((file) => {
-      const date = file.replace('.md', '')
-      const content = readTilFile(path.join(tilDir, file))
+    .map(({ date, path: filePath }) => {
+      const content = readTilFile(filePath)
       const parsedDate = parseLocalDate(date)
       const headings = [...content.matchAll(/^##\s+(.+)$/gm)].map((match) => match[1].trim())
       const tags = [...new Set([...content.matchAll(/#([A-Za-z0-9_-]+)/g)].map((match) => `#${match[1]}`))]

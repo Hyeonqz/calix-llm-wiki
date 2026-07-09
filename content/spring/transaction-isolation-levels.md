@@ -90,5 +90,5 @@ public void issue(...) { ... }
 ## Related
 
 - [@TransactionalEventListener + @Transactional 충돌](/spring/transactional-event-listener) — AFTER_COMMIT 리스너와 전파
-- [MySQL InnoDB Buffer Pool](/database/mysql-innodb-buffer-pool) — InnoDB 내부 구조
-- [MySQL DATETIME vs TIMESTAMP](/database/mysql-datetime-timestamp)
+- [MySQL InnoDB Buffer Pool](/database/mysql/mysql-innodb-buffer-pool) — InnoDB 내부 구조
+- [MySQL DATETIME vs TIMESTAMP](/database/mysql/mysql-datetime-timestamp)

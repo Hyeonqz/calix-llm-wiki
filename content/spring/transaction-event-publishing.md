@@ -150,4 +150,4 @@ RefundCompletionGateway   → RefundCompletedEvent     // 환불
 
 ## Related
 
-- [Kafka DLT](/concepts/kafka-dlt)
+- [Kafka DLT](/messaging/kafka-dlt)

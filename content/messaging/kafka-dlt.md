@@ -174,4 +174,4 @@ new DefaultErrorHandler(
 
 ## Related
 
-- [트랜잭션과 이벤트 발행 모범사례](/concepts/transaction-event-publishing)
+- [트랜잭션과 이벤트 발행 모범사례](/spring/transaction-event-publishing)

@@ -130,5 +130,5 @@ Hit Rate = (1 - Innodb_buffer_pool_reads / Innodb_buffer_pool_read_requests) × 
 
 ## Related
 
-- [MySQL DATETIME vs TIMESTAMP](/database/mysql-datetime-timestamp) — 같은 MySQL/InnoDB 스토리지 엔진 컨텍스트
+- [MySQL DATETIME vs TIMESTAMP](/database/mysql/mysql-datetime-timestamp) — 같은 MySQL/InnoDB 스토리지 엔진 컨텍스트
 - [Database](/database) — 도메인 인덱스

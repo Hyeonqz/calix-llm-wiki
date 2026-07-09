@@ -93,6 +93,6 @@ public record EventView(Long id, String name, State state,
 - [Spring: 단위 테스트 vs 통합 테스트](/spring/unit-test-vs-integration-test) — 뷰 모델 덕에 서비스 단위 테스트가 단순해지는 이유
 - [Spring: @TransactionalEventListener + @Transactional](/spring/transactional-event-listener) — 트랜잭션 경계와 계층 분리
 - [Spring: Facade + Delegation 패턴](/spring/facade-delegation-pattern) — 서비스 계층 책임 분리
-- [패키지/클래스/테이블 네이밍 규칙](/concepts/package-naming-singular-plural) — 계층별 모델 네이밍
-- [REST API Resource Naming](/concepts/rest-resource-naming) — presentation 계층 응답 설계
-- [JPA N+1 문제](/concepts/jpa-n-plus-one) — 엔티티 직접 노출 시 발생하는 lazy 로딩 문제
+- [패키지/클래스/테이블 네이밍 규칙](/backend-architecture/package-naming-singular-plural) — 계층별 모델 네이밍
+- [REST API Resource Naming](/backend-architecture/rest-resource-naming) — presentation 계층 응답 설계
+- [JPA N+1 문제](/spring/jpa-n-plus-one) — 엔티티 직접 노출 시 발생하는 lazy 로딩 문제

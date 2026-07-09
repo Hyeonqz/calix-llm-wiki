@@ -104,4 +104,4 @@ CREATE INDEX idx_member_name ON member (name);
 ## Related
 
 - [Database](/database)
-- [MySQL DATETIME vs TIMESTAMP](/database/mysql-datetime-timestamp)
+- [MySQL DATETIME vs TIMESTAMP](/database/mysql/mysql-datetime-timestamp)

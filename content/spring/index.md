@@ -13,6 +13,9 @@ Spring Framework / Spring Boot 관련 설계 패턴, 트랜잭션, 테스트 전
 - [Bean 초기화 순서 제어](/spring/bean-initialization-order) — @PostConstruct vs ApplicationReadyEvent, @DependsOn을 이용한 초기화 순서 보장
 - [단위 테스트 vs 통합 테스트](/spring/unit-test-vs-integration-test) — 선택 기준, Mockito 작성 전략, RestClient fluent chain mock 패턴
 - [트랜잭션 격리수준 (@Transactional 기준)](/spring/transaction-isolation-levels) — 이상현상 3종·4단계·MySQL RR 특이점, 격리수준이 못 막는 lost update, isolation vs propagation 구분
+- [JPA N+1 문제와 해결 전략](/spring/jpa-n-plus-one) — N+1 쿼리 원인과 EntityGraph, BatchSize 등 해결법
+- [@TransactionalEventListener 모범사례](/spring/payment-completion-gateway) — 결제 완료 후속 처리, AFTER_COMMIT 이벤트 설계
+- [트랜잭션과 이벤트 발행](/spring/transaction-event-publishing) — 커밋 이후 Redis/Kafka/알림 등 부가 작업을 안전하게 수행하는 패턴
 
 ## Related
 
