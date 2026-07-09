@@ -22,14 +22,14 @@ Anthropic이 공개한 Claude 스킬 구축에 대한 공식 가이드를 정리
 
 ## Topics
 
-- [Skills 개요](/claude-code/skills-building-guide/skills-overview) — 스킬 개념, 설계 원칙(점진적 공개/조합성/이식성), 파일 구조, 프론트매터
-- [Skills 개발 가이드](/claude-code/skills-building-guide/skills-development) — 사용 사례 카테고리, 성공 기준, 명령어 작성법
-- [Skills 테스트](/claude-code/skills-building-guide/skills-testing) — 트리거/기능/성능 테스트, skill-creator, 피드백 반복
-- [Skills 배포](/claude-code/skills-building-guide/skills-deployment) — 배포 모델, API, 포지셔닝
-- [Skills 패턴 및 트러블슈팅](/claude-code/skills-building-guide/skills-patterns) — 5가지 워크플로 패턴, 문제 해결, 체크리스트
+- [Skills 개요](/ai-harness/claude-code/skills-building-guide/skills-overview) — 스킬 개념, 설계 원칙(점진적 공개/조합성/이식성), 파일 구조, 프론트매터
+- [Skills 개발 가이드](/ai-harness/claude-code/skills-building-guide/skills-development) — 사용 사례 카테고리, 성공 기준, 명령어 작성법
+- [Skills 테스트](/ai-harness/claude-code/skills-building-guide/skills-testing) — 트리거/기능/성능 테스트, skill-creator, 피드백 반복
+- [Skills 배포](/ai-harness/claude-code/skills-building-guide/skills-deployment) — 배포 모델, API, 포지셔닝
+- [Skills 패턴 및 트러블슈팅](/ai-harness/claude-code/skills-building-guide/skills-patterns) — 5가지 워크플로 패턴, 문제 해결, 체크리스트
 
 ## Related
 
-- [Claude Code Overview](/claude-code) — 상위 도메인
-- [CLAUDE.md 작성법](/claude-code/claude-md-best-practices) — 프로젝트 지침 파일
-- [Source: WikiDocs 기초](/claude-code/src-wikidocs-foundations) — 세션/권한/컨텍스트 기초
+- [Claude Code Overview](/ai-harness/claude-code) — 상위 도메인
+- [CLAUDE.md 작성법](/ai-harness/claude-code/claude-md-best-practices) — 프로젝트 지침 파일
+- [Source: WikiDocs 기초](/ai-harness/claude-code/src-wikidocs-foundations) — 세션/권한/컨텍스트 기초

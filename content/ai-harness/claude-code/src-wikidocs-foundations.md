@@ -16,19 +16,19 @@ WikiDocs 기초 챕터에서 학습한 내용을 7개 페이지로 추출:
 
 ### 세션과 CLI
 
-- [Sessions](/claude-code/sessions) — 세션 시작/이어하기/이름/체크포인트 되감기/보관 기간
-- [CLI Essentials](/claude-code/cli-essentials) — `@` 파일 참조, `/` 슬래시 명령, 멀티라인 입력
+- [Sessions](/ai-harness/claude-code/sessions) — 세션 시작/이어하기/이름/체크포인트 되감기/보관 기간
+- [CLI Essentials](/ai-harness/claude-code/cli-essentials) — `@` 파일 참조, `/` 슬래시 명령, 멀티라인 입력
 
 ### 자율권과 안전
 
-- [Permission Modes](/claude-code/permission-modes) — 6개 모드 (Plan / Default / Auto-accept / Auto / Don't Ask / Bypass)
-- [Plan Mode](/claude-code/plan-mode) — 계획 후 실행 워크플로우
-- [Permission Rules](/claude-code/permission-rules) — `/permissions`, deny 규칙, defense-in-depth
+- [Permission Modes](/ai-harness/claude-code/permission-modes) — 6개 모드 (Plan / Default / Auto-accept / Auto / Don't Ask / Bypass)
+- [Plan Mode](/ai-harness/claude-code/plan-mode) — 계획 후 실행 워크플로우
+- [Permission Rules](/ai-harness/claude-code/permission-rules) — `/permissions`, deny 규칙, defense-in-depth
 
 ### 컨텍스트와 메모리
 
-- [Context Management](/claude-code/context-management) — `/clear`, `/compact`, `/context`, 자동 압축
-- [CLAUDE.md Best Practices](/claude-code/claude-md-best-practices) — 무엇을 넣고 무엇을 빼나, 200줄 룰
+- [Context Management](/ai-harness/claude-code/context-management) — `/clear`, `/compact`, `/context`, 자동 압축
+- [CLAUDE.md Best Practices](/ai-harness/claude-code/claude-md-best-practices) — 무엇을 넣고 무엇을 빼나, 200줄 룰
 
 ## 핵심 인사이트
 

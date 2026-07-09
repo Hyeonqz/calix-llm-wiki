@@ -40,5 +40,5 @@ Shift+Tab (Normal 또는 Auto-accept으로 전환)
 
 ## Related
 
-- [Permission Modes](/claude-code/permission-modes)
-- [CLAUDE.md Best Practices](/claude-code/claude-md-best-practices)
+- [Permission Modes](/ai-harness/claude-code/permission-modes)
+- [CLAUDE.md Best Practices](/ai-harness/claude-code/claude-md-best-practices)

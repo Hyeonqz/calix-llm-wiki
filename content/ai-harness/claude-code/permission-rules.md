@@ -64,4 +64,4 @@ Deny만으로는 부족할 수 있는 경우(예: prompt injection으로 우회 
 
 ## Related
 
-- [Permission Modes](/claude-code/permission-modes)
+- [Permission Modes](/ai-harness/claude-code/permission-modes)

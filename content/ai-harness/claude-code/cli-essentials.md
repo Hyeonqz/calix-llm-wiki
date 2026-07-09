@@ -28,7 +28,7 @@ title: CLI Essentials
 | `/context` | 현재 컨텍스트 사용량 확인 |
 | `/permissions` | 권한 규칙 관리 |
 
-세션·되감기 명령(`/resume`, `/rename`, `/rewind`)은 [Sessions](/claude-code/sessions) 참고.
+세션·되감기 명령(`/resume`, `/rename`, `/rewind`)은 [Sessions](/ai-harness/claude-code/sessions) 참고.
 
 지금 다 외울 필요 없음. `/`만 누르면 언제든 전체 목록이 뜬다.
 
@@ -45,5 +45,5 @@ title: CLI Essentials
 
 ## Related
 
-- [Sessions](/claude-code/sessions)
-- [Context Management](/claude-code/context-management)
+- [Sessions](/ai-harness/claude-code/sessions)
+- [Context Management](/ai-harness/claude-code/context-management)

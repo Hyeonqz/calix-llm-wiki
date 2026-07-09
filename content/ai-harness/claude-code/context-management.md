@@ -34,7 +34,7 @@ Claude가 한 번에 처리할 수 있는 대화량은 유한하다 — **컨텍
 | Auto Memory | 에러와 해결 방법 | 호출 안 한 스킬 설명 |
 | 환경 정보, MCP 도구 목록 | 대기 중 작업과 현재 상태 | |
 
-**핵심**: 대화에서만 한 지시(*"한국어로 응답해줘"* 등)는 압축 시 사라질 수 있다. 반복 규칙은 [CLAUDE.md](/claude-code/claude-md-best-practices)에 적어두면 압축 후에도 유실되지 않는다.
+**핵심**: 대화에서만 한 지시(*"한국어로 응답해줘"* 등)는 압축 시 사라질 수 있다. 반복 규칙은 [CLAUDE.md](/ai-harness/claude-code/claude-md-best-practices)에 적어두면 압축 후에도 유실되지 않는다.
 
 ## `/context` — 사용량 확인
 
@@ -73,9 +73,9 @@ export CLAUDE_CODE_AUTO_COMPACT_WINDOW=500000
 
 - **70% 넘으면** `/compact` 고려
 - **같은 문제를 두 번 이상 수정**했다면 → 실패한 시도들이 컨텍스트를 어지럽히는 중. `/clear` 후 배운 것을 새 프롬프트에 반영해 다시 시작하는 게 더 효과적
-- **반복 규칙**은 대화에 적지 말고 [CLAUDE.md](/claude-code/claude-md-best-practices)에
+- **반복 규칙**은 대화에 적지 말고 [CLAUDE.md](/ai-harness/claude-code/claude-md-best-practices)에
 
 ## Related
 
-- [CLAUDE.md Best Practices](/claude-code/claude-md-best-practices)
-- [Sessions](/claude-code/sessions)
+- [CLAUDE.md Best Practices](/ai-harness/claude-code/claude-md-best-practices)
+- [Sessions](/ai-harness/claude-code/sessions)

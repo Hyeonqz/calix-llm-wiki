@@ -8,6 +8,12 @@ AI 코딩 에이전트와 플러그인 생태계에 대한 지식 정리.
 
 Claude Code, Codex 같은 코딩 에이전트 위에 올라가는 harness(플러그인, 에이전트 프레임워크)를 다룬다.
 
+## 코딩 에이전트
+
+harness의 기반이 되는 에이전트 본체.
+
+- [Claude Code](/ai-harness/claude-code) — Anthropic 공식 CLI 코딩 에이전트. 세션·권한·컨텍스트·스킬 등
+
 ## Plugins
 
 코딩 에이전트의 워크플로우를 확장하는 플러그인 시스템.

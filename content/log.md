@@ -216,3 +216,12 @@ Related 링크 정리(빈 spring Related는 Database·Messaging 링크로 대체
 
 - content/cross-domain/ (삭제)
 - content/_meta.js, content/index.md, 각 도메인 index.md Related 정리
+
+## [2026-07-09] refactor | Claude Code를 AI Harness 하위로 통합
+
+독립 최상위 도메인이던 claude-code를 ai-harness 하위 서브도메인으로 이동. 사이드바에서 AI Harness > Claude Code로 중첩.
+
+- content/claude-code/ → content/ai-harness/claude-code/ (git mv, 하위 skills-building-guide 포함)
+- content/_meta.js: 최상위 claude-code 엔트리 제거
+- content/ai-harness/_meta.js: claude-code 엔트리 추가 / index.md: 코딩 에이전트 섹션 추가
+- 내부 링크 /claude-code/ → /ai-harness/claude-code/ 일괄 치환, master index 정리

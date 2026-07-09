@@ -12,23 +12,23 @@ Anthropic의 공식 CLI 코딩 에이전트. 터미널, 데스크탑 앱, 웹, I
 
 ### 세션과 CLI
 
-- [Sessions](/claude-code/sessions) — 세션 시작/이어하기/이름/체크포인트 되감기/보관 기간
-- [CLI Essentials](/claude-code/cli-essentials) — `@` 파일 참조, `/` 슬래시 명령, 멀티라인 입력
+- [Sessions](/ai-harness/claude-code/sessions) — 세션 시작/이어하기/이름/체크포인트 되감기/보관 기간
+- [CLI Essentials](/ai-harness/claude-code/cli-essentials) — `@` 파일 참조, `/` 슬래시 명령, 멀티라인 입력
 
 ### 자율권과 안전
 
-- [Permission Modes](/claude-code/permission-modes) — Plan / Default / Auto-accept / Auto / Don't Ask / Bypass 6개 모드
-- [Plan Mode](/claude-code/plan-mode) — 실행 전 계획만 세우기, 가장 자주 쓰는 패턴
-- [Permission Rules](/claude-code/permission-rules) — `/permissions`, allow/ask/deny 규칙, defense-in-depth
+- [Permission Modes](/ai-harness/claude-code/permission-modes) — Plan / Default / Auto-accept / Auto / Don't Ask / Bypass 6개 모드
+- [Plan Mode](/ai-harness/claude-code/plan-mode) — 실행 전 계획만 세우기, 가장 자주 쓰는 패턴
+- [Permission Rules](/ai-harness/claude-code/permission-rules) — `/permissions`, allow/ask/deny 규칙, defense-in-depth
 
 ### 컨텍스트와 메모리
 
-- [Context Management](/claude-code/context-management) — `/clear`, `/compact`, `/context`, 자동 압축
-- [CLAUDE.md Best Practices](/claude-code/claude-md-best-practices) — 무엇을 넣고 무엇을 빼나, 200줄 룰
+- [Context Management](/ai-harness/claude-code/context-management) — `/clear`, `/compact`, `/context`, 자동 압축
+- [CLAUDE.md Best Practices](/ai-harness/claude-code/claude-md-best-practices) — 무엇을 넣고 무엇을 빼나, 200줄 룰
 
 ### 스킬
 
-- [Skills 구축 완벽 가이드](/claude-code/skills-building-guide) — Anthropic 공식 가이드 정리. 개념/개발/테스트/배포/패턴 5개 하위 페이지
+- [Skills 구축 완벽 가이드](/ai-harness/claude-code/skills-building-guide) — Anthropic 공식 가이드 정리. 개념/개발/테스트/배포/패턴 5개 하위 페이지
 
 ### 학습 예정
 
@@ -41,8 +41,8 @@ Anthropic의 공식 CLI 코딩 에이전트. 터미널, 데스크탑 앱, 웹, I
 
 ## Sources
 
-- [Source — WikiDocs 기초](/claude-code/src-wikidocs-foundations) — 2026-04-15 ingest. 세션·권한·컨텍스트·CLAUDE.md 4개 영역
-- [Skills 구축 완벽 가이드](/claude-code/skills-building-guide) — 2026-04-15 ingest. Anthropic 공식 스킬 가이드 (하위 섹션)
+- [Source — WikiDocs 기초](/ai-harness/claude-code/src-wikidocs-foundations) — 2026-04-15 ingest. 세션·권한·컨텍스트·CLAUDE.md 4개 영역
+- [Skills 구축 완벽 가이드](/ai-harness/claude-code/skills-building-guide) — 2026-04-15 ingest. Anthropic 공식 스킬 가이드 (하위 섹션)
 
 ## Cross-Domain
 

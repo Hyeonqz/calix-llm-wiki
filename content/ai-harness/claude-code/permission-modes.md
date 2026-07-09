@@ -54,9 +54,9 @@ Desktop 앱은 `Code` 탭의 모드 선택기에서 4개(Ask permissions / Auto 
 1. 처음엔 그냥 `claude` (Default) — 매번 승인하면서 Claude가 무엇을 하는지 관찰
 2. 익숙해지면 단순 편집은 **Auto-accept**
 3. 복잡한 작업은 항상 **Plan 먼저** → 검토 후 실행 모드로 전환
-4. 위험한 작업은 [Permission Rules](/claude-code/permission-rules)의 deny로 봉쇄해두면 상위 모드도 안전
+4. 위험한 작업은 [Permission Rules](/ai-harness/claude-code/permission-rules)의 deny로 봉쇄해두면 상위 모드도 안전
 
 ## Related
 
-- [Plan Mode](/claude-code/plan-mode) — 가장 자주 쓰는 모드 활용법
-- [Permission Rules](/claude-code/permission-rules) — `/permissions`로 자동 허용/거부 규칙 설정
+- [Plan Mode](/ai-harness/claude-code/plan-mode) — 가장 자주 쓰는 모드 활용법
+- [Permission Rules](/ai-harness/claude-code/permission-rules) — `/permissions`로 자동 허용/거부 규칙 설정

@@ -6,9 +6,6 @@ export default {
       timestamp: false
     }
   },
-  'claude-code': {
-    title: 'Claude Code'
-  },
   'ai-harness': {
     title: 'AI Harness'
   },
