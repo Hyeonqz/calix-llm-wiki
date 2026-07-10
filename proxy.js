@@ -13,5 +13,5 @@ export function proxy(request) {
 }
 
 export const config = {
-  matcher: ['/til', '/til/:path*'],
+  matcher: ['/study', '/study/:path*', '/til', '/til/:path*'],
 }
