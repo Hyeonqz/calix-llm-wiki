@@ -73,6 +73,12 @@ export default async function RootLayout({ children }) {
               >
                 TIL
               </Link>
+              <Link
+                href="/study"
+                style={{ fontSize: '0.9rem', fontWeight: 600, opacity: 0.8 }}
+              >
+                Study
+              </Link>
             </Navbar>
           }
           footer={<Footer>MIT {new Date().getFullYear()} © Calix</Footer>}
