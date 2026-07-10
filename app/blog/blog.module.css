@@ -26,6 +26,12 @@
 }
 
 /* ---------- 목록 ---------- */
+/* 목록은 3열 카드 그리드라 상세(.wrap)보다 넓은 컨테이너 사용 */
+.listWrap {
+  composes: wrap;
+  max-width: 1160px;
+}
+
 .eyebrow {
   font-size: 13px;
   font-weight: 700;
@@ -87,52 +93,130 @@
   background: var(--ink);
 }
 
-.postList {
+/* 카드 그리드 — 가로 3 × 세로 4 = 12개/페이지 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
-}
-
-.post {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-  padding: 28px 16px;
-  margin: 0 -16px;
+  border: 1px solid var(--line);
   border-radius: 16px;
+  overflow: hidden;
+  background: var(--surface-2);
   text-decoration: none;
   color: inherit;
-  transition: background 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
-.post:hover {
-  background: var(--surface-2);
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+  border-color: #d1d9e0;
 }
 
-.post + .post {
-  border-top: 1px solid var(--line);
+:global(html.dark) .card:hover {
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.4);
+  border-color: #34404f;
 }
 
-.postBody {
-  flex: 1;
-  min-width: 0;
+/* 썸네일 = 글 제목 기반 카드 (hero 사진 대신 카테고리 그라디언트 + 제목 텍스트) */
+.cardThumb {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: transform 0.3s ease;
 }
 
-.postTitle {
-  margin: 0 0 8px;
+.card:hover .cardThumb {
+  transform: scale(1.02);
+}
+
+.cardThumbCategory {
+  align-self: flex-start;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.cardThumbTitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #fff;
   font-size: 20px;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+  padding: 18px 18px 20px;
+}
+
+.cardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.cardTag {
+  background: var(--blue-soft);
+  color: var(--blue);
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+/* 현재 선택된 필터 태그는 카드에서도 강조 */
+.cardTagActive {
+  composes: cardTag;
+  background: var(--blue);
+  color: #fff;
+}
+
+.cardTitle {
+  margin: 2px 0 0;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   transition: color 0.15s ease;
 }
 
-.post:hover .postTitle {
+.card:hover .cardTitle {
   color: var(--blue);
 }
 
-.postDesc {
-  margin: 0 0 14px;
-  font-size: 15px;
+.cardDesc {
+  margin: 0;
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.6;
   color: var(--ink-2);
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -140,34 +224,68 @@
   overflow: hidden;
 }
 
-.postMeta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13px;
+.cardMeta {
+  margin-top: 4px;
+  font-size: 12.5px;
   color: var(--ink-3);
   font-variant-numeric: tabular-nums;
 }
 
-.chip {
-  background: var(--blue-soft);
-  color: var(--blue);
-  border-radius: 6px;
-  padding: 2px 8px;
-  font-weight: 600;
+/* 페이징 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 48px;
 }
 
-.thumb {
-  flex: none;
-  width: 128px;
-  height: 90px;
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 34px;
-  font-weight: 800;
-  color: rgba(255, 255, 255, 0.85);
+.pageBtn {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.pageBtn:hover:not(:disabled) {
+  background: var(--surface);
+  border-color: var(--ink-3);
+}
+
+.pageBtn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pageBtnActive {
+  composes: pageBtn;
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--surface-2);
+}
+
+.pageBtnActive:hover {
+  background: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .empty {

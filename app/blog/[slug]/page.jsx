@@ -9,6 +9,7 @@ import { getPost, getPosts } from '../posts'
 import styles from '../blog.module.css'
 import Toc from '../Toc'
 import DownloadMd from '../DownloadMd'
+import HeroImage from '../HeroImage'
 
 export function generateStaticParams() {
   return getPosts().map((post) => ({ slug: post.slug }))
@@ -48,10 +49,11 @@ export default async function BlogPostPage({ params }) {
           <DownloadMd raw={post.raw} slug={post.slug} />
         </div>
         {post.hero && (
-          <figure className={styles.hero}>
-            <img src={post.hero} alt={post.heroCaption || post.title} />
-            {post.heroCaption && <figcaption>{post.heroCaption}</figcaption>}
-          </figure>
+          <HeroImage
+            src={post.hero}
+            caption={post.heroCaption}
+            alt={post.heroCaption || post.title}
+          />
         )}
         <article className={styles.prose}>
           <ReactMarkdown

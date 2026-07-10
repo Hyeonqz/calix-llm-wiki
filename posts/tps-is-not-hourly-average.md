@@ -3,6 +3,7 @@ title: "시간당 평균"은 TPS가 아니다 — 피크를 p99로 확정하기
 description: 연동사의 "서버 부담" 주장을 검증하려고 결제 테이블의 실제 TPS를 측정했습니다. 시간 평균의 함정, p99로 피크를 잡는 3단계, 그리고 측정 결과가 협상의 프레임을 바꾼 이야기.
 date: 2026-06-30
 category: 데이터베이스
+tags: [성능, TPS, 측정]
 hero: /images/blog/pg-negotiation-summary.png
 heroCaption: 만화로 보는 요약 — 먼저 읽어보세요
 ---

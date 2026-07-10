@@ -3,6 +3,7 @@ title: Spring Boot 3에서 4로, "코드 변경 0"은 불가능하다
 description: Jackson 2→3, JUnit 5→6, Hibernate 7이 한꺼번에 바뀌는 메이저 업그레이드. 목표를 "코드 변경 0"이 아니라 "동작 변경 0 + 테스트로 증명"으로 재정의해야 하는 이유와 3개월 로드맵을 정리했습니다.
 date: 2026-06-28
 category: 백엔드
+tags: [Spring Boot, 마이그레이션, 테스트]
 hero: /images/blog/springboot-upgrade-roadmap.png
 heroCaption: 만화로 보는 요약 — 먼저 읽어보세요
 ---

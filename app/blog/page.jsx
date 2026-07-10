@@ -11,7 +11,7 @@ export default function BlogPage() {
   const posts = getPosts().map(({ body, ...meta }) => meta)
 
   return (
-    <main className={styles.wrap}>
+    <main className={styles.listWrap}>
       <header>
         <p className={styles.eyebrow}>Blog</p>
         <h1 className={styles.title}>위키가 쌓이면, 글이 됩니다</h1>

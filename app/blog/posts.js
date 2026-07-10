@@ -36,6 +36,17 @@ function formatDate(date) {
   return `${y}. ${m}. ${d}`
 }
 
+// `tags: [a, b]`, `tags: ["a", "b"]`, `tags: a, b` 모두 지원
+function parseList(value) {
+  if (!value) return []
+  return value
+    .trim()
+    .replace(/^\[|\]$/g, '')
+    .split(',')
+    .map((item) => item.trim().replace(/^["']|["']$/g, ''))
+    .filter(Boolean)
+}
+
 export function getPosts() {
   if (!fs.existsSync(POSTS_DIR)) return []
   return fs.readdirSync(POSTS_DIR)
@@ -43,13 +54,17 @@ export function getPosts() {
     .map((file) => {
       const raw = fs.readFileSync(path.join(POSTS_DIR, file), 'utf-8')
       const { data, body } = parseFrontmatter(raw)
+      const parsedTags = parseList(data.tags)
+      const category = data.category || '기타'
       return {
         slug: file.replace('.md', ''),
         title: data.title || file,
         description: data.description || '',
         date: data.date || '',
         displayDate: data.date ? formatDate(data.date) : '',
-        category: data.category || '기타',
+        category,
+        // 명시적 tags가 없으면 category를 단일 태그로 사용 (필터/칩 동작 보장)
+        tags: parsedTags.length ? parsedTags : [category],
         hero: data.hero || '',
         heroCaption: data.heroCaption || '',
         readMinutes: Math.max(1, Math.round(body.length / 700)),
