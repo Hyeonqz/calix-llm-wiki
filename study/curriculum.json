@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "os",
+      "label": "Operating System",
+      "topics": [
+        { "id": "os-process-thread", "title": "프로세스 vs 스레드 & 컨텍스트 스위칭", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null },
+        { "id": "os-virtual-memory", "title": "가상 메모리와 페이지 교체", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null }
+      ]
+    },
+    {
+      "id": "network",
+      "label": "Network",
+      "topics": [
+        { "id": "net-tcp-handshake", "title": "TCP 3-way / 4-way handshake", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null },
+        { "id": "net-http-versions", "title": "HTTP/1.1 vs HTTP/2 vs HTTP/3", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null }
+      ]
+    },
+    {
+      "id": "java",
+      "label": "Java",
+      "topics": [
+        { "id": "java-gc", "title": "JVM 가비지 컬렉션 동작과 세대별 힙", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null },
+        { "id": "java-equals-hashcode", "title": "equals / hashCode 계약", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null }
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "label": "Spring Boot",
+      "topics": [
+        { "id": "sb-di-container", "title": "IoC 컨테이너와 빈 생명주기", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null },
+        { "id": "sb-transaction", "title": "@Transactional 전파와 프록시 동작", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null }
+      ]
+    },
+    {
+      "id": "mysql",
+      "label": "MySQL",
+      "topics": [
+        { "id": "mysql-btree-index", "title": "B-tree 인덱스와 커버링 인덱스", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null },
+        { "id": "mysql-isolation", "title": "트랜잭션 격리 수준과 MVCC", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null }
+      ]
+    },
+    {
+      "id": "jpa",
+      "label": "JPA",
+      "topics": [
+        { "id": "jpa-n-plus-one", "title": "N+1 문제와 fetch join", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null },
+        { "id": "jpa-persistence-context", "title": "영속성 컨텍스트와 1차 캐시", "status": "todo", "added": "2026-07-10", "writeup": null, "srs": null }
+      ]
+    }
+  ]
+}
