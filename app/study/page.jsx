@@ -1,8 +1,14 @@
 import Link from 'next/link'
 import styles from './study.module.css'
-import { readCurriculum, todaysPicks } from './curriculumData'
+import { readCurriculum, readRoadmap, todaysPicks } from './curriculumData'
 
 export const metadata = { title: 'Study | Calix Wiki' }
+
+const ROADMAP_TAGS = [
+  { key: 'weekly', label: '주간' },
+  { key: 'monthly', label: '월간' },
+  { key: 'yearly', label: '연간' },
+]
 
 // "Today" in KST as YYYY-MM-DD (en-CA locale formats ISO-style).
 function todayKST() {
@@ -11,6 +17,7 @@ function todayKST() {
 
 export default function StudyPage() {
   const data = readCurriculum()
+  const roadmap = readRoadmap()
   const today = todayKST()
   const { due, todos } = todaysPicks(data.categories, today)
   const picks = [...due, ...todos]
@@ -72,6 +79,30 @@ export default function StudyPage() {
             </article>
           )
         })}
+      </section>
+
+      <section className={styles.roadmapSection}>
+        <h2 className={styles.todayTitle}>로드맵</h2>
+        <div className={styles.grid}>
+          {ROADMAP_TAGS.map(({ key, label }) => (
+            <Link key={key} href={`/study/roadmap/${key}`} className={`${styles.card} ${styles.cardLink}`}>
+              <div className={styles.cardHead}>
+                <h3 className={styles.cardLabel}>{label}</h3>
+                <span className={styles.progress}>{roadmap[key].length}개</span>
+              </div>
+              {roadmap[key].length === 0 ? (
+                <p className={styles.empty}>아직 계획이 없습니다.</p>
+              ) : (
+                <ul className={styles.topicList}>
+                  {roadmap[key].map((item) => (
+                    <li key={item.id}>{item.title}</li>
+                  ))}
+                </ul>
+              )}
+              <span className={styles.cardLinkHint}>자세히 보기 →</span>
+            </Link>
+          ))}
+        </div>
       </section>
     </main>
   )

@@ -1,0 +1,9 @@
+{
+  "weekly": [],
+  "monthly": [],
+  "yearly": [
+    { "id": "y-cs-fundamentals-complete", "title": "CS 기초 6개 카테고리(OS·Network·Java·Spring Boot·MySQL·JPA) 전 항목 학습 완료 + 위키 페이지화", "status": "todo", "due": null },
+    { "id": "y-spaced-repetition-routine", "title": "완료 주제 spaced-repetition 복습 루틴 유지 — /study 오늘 학습 항목 주간 소화율 80% 이상", "status": "todo", "due": null },
+    { "id": "y-learn-in-public", "title": "학습 내용 매월 1편 이상 블로그/위키 글로 공개 작성 (연 12편, learn-in-public)", "status": "todo", "due": null }
+  ]
+}

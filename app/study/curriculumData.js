@@ -12,3 +12,13 @@ export function readCurriculum() {
     return { categories: [] }
   }
 }
+
+// Reads repo-root study/roadmap.json. Missing/invalid file → empty roadmap.
+export function readRoadmap() {
+  const file = path.join(process.cwd(), 'study', 'roadmap.json')
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf-8'))
+  } catch {
+    return { weekly: [], monthly: [], yearly: [] }
+  }
+}
