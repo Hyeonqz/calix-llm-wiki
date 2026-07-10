@@ -15,7 +15,7 @@ LLM이 유지/관리하는 개인 지식 베이스.
 - [Backend Architecture](/backend-architecture) — 프레임워크 중립적 백엔드 설계 원칙. 계층 분리, 데이터 모델 경계, 의존 방향
 - [Operating System](/operating-system) — OS 기본기. 프로세스/스레드, 멀티스레드, 공유 자원 경쟁, 뮤텍스/세마포어 등 CS 면접 주제
 - [Network](/network) — 네트워크 기본기. TCP/UDP, HTTP, 프로토콜 등 CS 면접 주제
-- [Java Concurrency](/java-concurrency) — java.util.concurrent 학습 노트. CountDownLatch 등 동기화 도구, 스레드 풀, 가상 스레드
+- [Java](/java) — 컬렉션 프레임워크(List 등)와 java.util.concurrent 학습 노트. CountDownLatch 등 동기화 도구, 스레드 풀, 가상 스레드
 - [AI Harness](/ai-harness) — 코딩 에이전트(Claude Code)와 그 위의 플러그인·에이전트 생태계 (OMC, Superpowers, gstack 등)
 
 ## Activity

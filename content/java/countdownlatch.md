@@ -16,7 +16,7 @@ latch.getCount();   // 현재 카운터
 latch.await(t, unit); // 타임아웃 버전 (무한 대기 회피)
 ```
 
-- **단방향·1회용:** 카운터는 줄기만 하고 **리셋 불가**. 0이 되면 그 뒤 `await()`는 즉시 통과. 반복하려면 [CyclicBarrier](/java-concurrency/index)를 쓴다.
+- **단방향·1회용:** 카운터는 줄기만 하고 **리셋 불가**. 0이 되면 그 뒤 `await()`는 즉시 통과. 반복하려면 [CyclicBarrier](/java)를 쓴다.
 - `countDown()`은 **여러 스레드가 동시에 호출해도 안전**(원자적).
 
 ## 두 가지 대표 사용 패턴
@@ -86,6 +86,6 @@ ExecutorService pool = Executors.newVirtualThreadPerTaskExecutor();  // ✅
 
 ## Related
 
-- [Java Concurrency 개요](/java-concurrency) — JUC 학습 로드맵(CyclicBarrier·Semaphore·ExecutorService 등)
+- [Java 개요](/java) — JUC 학습 로드맵(CyclicBarrier·Semaphore·ExecutorService 등)
 - [Backend Architecture](/backend-architecture) — 동시성 제어·직렬화 설계
 - [Spring: 단위 테스트 vs 통합 테스트](/spring/unit-test-vs-integration-test) — 동시성/통합 테스트 전략

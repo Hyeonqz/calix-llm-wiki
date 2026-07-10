@@ -92,7 +92,7 @@ void download() throws InterruptedException {
 }
 ```
 
-Java의 `Semaphore`는 [Java Concurrency](/java-concurrency) 도메인에서 다른 synchronizer(CountDownLatch, CyclicBarrier)와 함께 심화 예정.
+Java의 `Semaphore`는 [Java](/java) 도메인에서 다른 synchronizer(CountDownLatch, CyclicBarrier)와 함께 심화 예정.
 
 **한 줄 요약**: 뮤텍스는 "1개 + 소유권 있는 락", 세마포어는 "N개 카운터 + 소유권 없는 신호". "화장실 1칸 열쇠(뮤텍스) vs 주차장 N면 표시판(세마포어)"로 기억.
 
@@ -108,5 +108,6 @@ Java의 `Semaphore`는 [Java Concurrency](/java-concurrency) 도메인에서 다
 ## Related
 
 - [Operating System](/operating-system)
-- [Java Concurrency](/java-concurrency) — Java `Semaphore`·`CountDownLatch` 등 실제 동기화 도구 구현
+- [Java](/java) — Java `Semaphore`·`CountDownLatch` 등 실제 동기화 도구 구현
+- [List (ArrayList vs LinkedList)](/java/list-data-structures) — 컨텍스트 스위칭·메모리 계층 개념이 자료구조 성능에 적용되는 예시 (부록)
 - [트랜잭션 격리수준](/spring/transaction-isolation-levels) — DB 레벨의 동시성 제어와 lost update 함정

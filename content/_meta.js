@@ -27,8 +27,8 @@ export default {
   network: {
     title: 'Network'
   },
-  'java-concurrency': {
-    title: 'Java Concurrency'
+  java: {
+    title: 'Java'
   },
   thinking: {
     title: 'Thinking'

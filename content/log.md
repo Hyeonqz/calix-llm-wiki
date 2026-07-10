@@ -241,3 +241,38 @@ Related 링크 정리(빈 spring Related는 Database·Messaging 링크로 대체
 - content/_meta.js: 최상위 claude-code 엔트리 제거
 - content/ai-harness/_meta.js: claude-code 엔트리 추가 / index.md: 코딩 에이전트 섹션 추가
 - 내부 링크 /claude-code/ → /ai-harness/claude-code/ 일괄 치환, master index 정리
+
+## [2026-07-10] refactor | java-concurrency 도메인을 Java로 확장 + List 자료구조 노트 2편
+
+동시성 전용이던 `java-concurrency` 도메인을 범용 `java` 도메인으로 확장(concurrency는 하위 로드맵으로 유지).
+`ArrayList` vs `LinkedList` 개관 노트와, 캐시 지역성·포인터 체이싱·가상 메모리·GC 관점의 OS 레벨 deep dive를
+별도 페이지로 분리해 작성(한 페이지 200줄 제한 준수). OS 도메인과 상호 링크.
+
+- content/java-concurrency/ → content/java/ (git mv)
+- content/java/list-data-structures.md (신규 — ArrayList/LinkedList 개관·동작 방식·선택 기준)
+- content/java/list-memory-and-cache.md (신규 — 캐시·페이징·GC deep dive)
+- content/java/index.md, _meta.js (신규 페이지 반영, 도메인 설명을 Java로 확장)
+- content/java/countdownlatch.md (내부 링크 /java-concurrency → /java)
+- content/index.md, content/_meta.js (도메인 키/타이틀 java-concurrency → java)
+- content/operating-system/index.md, process-thread-synchronization.md (링크 경로 갱신 + List deep dive로 역링크 추가)
+
+## [2026-07-10] refactor | List 메모리·캐시 deep dive를 별도 페이지 → 부록으로 병합
+
+`list-memory-and-cache.md`를 독립 페이지로 분리했으나, 사용자 판단으로 별도 글이 불필요하다고 정정 —
+`list-data-structures.md` 하단에 "부록: 메모리·캐시 관점 (OS 레벨)" 섹션으로 병합하고 원 페이지 삭제.
+
+- content/java/list-memory-and-cache.md (삭제, 내용은 list-data-structures.md 부록으로 이동)
+- content/java/list-data-structures.md (부록 섹션 추가)
+- content/java/index.md, _meta.js (분리 페이지 항목 제거)
+- content/operating-system/index.md, process-thread-synchronization.md (역링크를 list-data-structures.md로 정정)
+
+## [2026-07-10] chore | sources/ 폴더를 content/ 도메인 구조와 재동기화
+
+content/ 도메인 리네임·재구성(java-concurrency→java, claude-code→ai-harness 하위 이동)이 있었지만
+sources/는 예전 이름 그대로 남아있던 것을 발견해 정리. spring·thinking 도메인은 sources/ 폴더 자체가
+없던 것도 생성(향후 소스 추가용). CLAUDE.md의 남아있던 java-concurrency 표기도 java로 수정.
+
+- sources/java-concurrency/ → sources/java/ (빈 폴더, 단순 rename)
+- sources/claude-code/README.md → sources/ai-harness/claude-code/README.md (소스 목록 내용은 그대로)
+- sources/spring/, sources/thinking/ (신규 빈 폴더)
+- CLAUDE.md (도메인 목록·예시의 java-concurrency 표기 2곳 수정)

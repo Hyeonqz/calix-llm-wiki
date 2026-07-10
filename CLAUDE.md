@@ -10,24 +10,33 @@ This wiki is deployed as a Nextra site (Next.js). All content lives in `content/
 ```
 sources/                        # Raw sources — immutable, user curates, you READ ONLY
   general/                      # Domain에 속하지 않는 범용 소스
-  {domain}/                     # 도메인별 소스 (spring-boot/, nestjs/ 등)
+  {domain}/                     # 도메인별 소스 (database/, spring/ 등)
 content/                        # Wiki pages — you OWN this (Nextra content directory)
   index.md                      # Master MOC — 모든 도메인과 페이지 카탈로그
-  log.md                        # Chronological operation log
+  log.md                        # Chronological operation log (/log 라우트로 렌더링)
   _meta.js                      # Nextra sidebar navigation config
-  cross-domain/                 # 교차 도메인 분석, 비교
-    index.md                    # Cross-domain MOC
-    _meta.js                    # Sidebar config
   {domain}/                     # 도메인별 위키 페이지
     index.md                    # Domain MOC (도메인 진입점)
     _meta.js                    # Sidebar config
     {subtopic}.md               # 개별 노트 (kebab-case)
 TIL/                            # Today I Learned — 날짜별 일일 기록 (/til 라우트로 렌더링)
-  YYYY/                         # 연 폴더
-    MM/                         # 월 폴더
-      YYYY-MM-DD.md           # 하루 1파일, 여러 항목은 H2로 구분
+  YYYY/MM/YYYY-MM-DD.md         # 연/월 폴더, 하루 1파일, 여러 항목은 H2로 구분
+posts/                          # 블로그 글 (frontmatter md) — /blog 라우트로 렌더링
+study/                          # 학습 커리큘럼 데이터 (curriculum.json, roadmap.json) — /study 라우트
+app/                            # Next.js App Router — 렌더링 층 (아래 참고, 편집은 신중히)
+logs/                           # Claude Code 세션 자동 덤프 — READ ONLY, 위키 관리와 무관
 CLAUDE.md                       # This file — schema and rules
 ```
+
+### 렌더링 층 (`app/`)
+
+`content/` 위키 외에 커스텀 라우트가 있다. 위키 유지가 주 업무이며, 아래는 데이터 소스만 알아두면 된다:
+
+- `/` · `/{domain}/{page}` — Nextra가 `content/`를 렌더링 (`app/[[...slug]]`)
+- `/blog` — `posts/*.md`를 카드 그리드·태그·페이지네이션으로 렌더링
+- `/til` — `TIL/` 트리를 폴더 구조와 무관하게 재귀 수집해 렌더링
+- `/study` — `study/curriculum.json` + `roadmap.json` 기반, 망각곡선으로 "오늘 학습" 계산
+- `/study`·`/til`은 `proxy.js`(Next 16 미들웨어)로 `til-auth` 쿠키 인증 뒤에 게이팅됨
 
 ## Key Design: Folder-based Domains + MOC Index
 
@@ -36,11 +45,13 @@ CLAUDE.md                       # This file — schema and rules
 같은 개념이 다른 도메인에서 충돌하지 않도록, 도메인은 폴더로 구분한다:
 
 ```
-content/spring-boot/jpa-entity.md        # JPA Entity
-content/nestjs/typeorm-entity.md         # TypeORM Entity
-content/nextjs/rsc-data-fetching.md      # Next.js RSC
-content/database/postgresql-indexing.md  # PostgreSQL 인덱싱
+content/spring/jpa-entity.md             # Spring JPA Entity
+content/database/mysql-indexing.md       # MySQL 인덱싱
+content/network/tcp-handshake.md         # TCP 핸드셰이크
+content/java/thread-pool.md              # 스레드 풀
 ```
+
+현재 도메인: `ai-harness`, `spring`, `database`, `messaging`, `backend-architecture`, `operating-system`, `network`, `java`, `thinking`.
 
 ### MOC (Map of Content) 인덱스
 
@@ -48,8 +59,8 @@ content/database/postgresql-indexing.md  # PostgreSQL 인덱싱
 
 ```
 content/index.md                → 전체 도메인 목록, 최근 활동
-content/spring-boot/index.md    → Spring Boot 관련 모든 노트 링크
-content/cross-domain/index.md   → 교차 분석 노트 목록
+content/spring/index.md         → Spring 관련 모든 노트 링크
+content/database/index.md       → Database 관련 모든 노트 링크
 ```
 
 ### Nextra Navigation (`_meta.js`)
@@ -83,7 +94,7 @@ When the user adds a source or says "ingest this":
 3. Determine which domain(s) the source belongs to
 4. Create a source summary page: `content/{domain}/src-{name}.md`
 5. Create or update relevant topic pages: `content/{domain}/{subtopic}.md`
-6. If 2+ domains are involved, create/update `content/cross-domain/` entry
+6. If 2+ domains are involved, cross-link the pages directly (`[Text](/other-domain/page)`) in each page's `## Related`
 7. Update the domain's `index.md` — add links to new pages
 8. Update the domain's `_meta.js` — add navigation entries
 9. Update `content/index.md` (master MOC)
@@ -184,12 +195,10 @@ TIL 파일은 `TIL/YYYY/MM/YYYY-MM-DD.md`에 저장 (연/월 폴더로 관리). 
 
 ## Naming Conventions
 
-- **Domain folders**: `kebab-case` (e.g., `spring-boot/`, `nestjs/`, `database/`)
+- **Domain folders**: `kebab-case` (e.g., `spring/`, `database/`, `java/`)
 - **Topic pages**: `kebab-case.md` inside domain folder
-  - e.g., `spring-boot/jpa-entity.md`, `nestjs/typeorm-entity.md`
+  - e.g., `spring/jpa-entity.md`, `database/mysql-indexing.md`
 - **Source summaries**: `src-{descriptive-name}.md` in the relevant domain folder
-- **Cross-domain pages**: descriptive kebab-case in `cross-domain/`
-  - e.g., `cross-domain/orm-comparison.md`, `cross-domain/auth-patterns.md`
 - **MOC files**: always `index.md` (Nextra convention)
 
 ## Adding a New Domain
@@ -236,7 +245,7 @@ export default {
 2. **Use kebab-case filenames** — no dots in filenames, domain is in the folder path
 3. **Every new note must be linked from its domain `index.md`**
 4. **Every new note must be added to its domain `_meta.js`**
-5. **When a note references 2+ domains**, add or update a `cross-domain/` entry
+5. **When a note references 2+ domains**, cross-link the pages directly in each page's `## Related`
 6. **Always log operations** in `log.md`
 7. **Frontmatter `title` is mandatory** on every wiki page
 8. **One concept per page** — split if a page covers multiple distinct ideas, keep under 200 lines
