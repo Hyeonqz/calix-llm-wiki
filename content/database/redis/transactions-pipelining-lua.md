@@ -61,5 +61,6 @@ return redis.call('INCR', KEYS[1])     -- 발급
 
 ## Related
 
+- [트랜잭션과 ACID](/database/mysql/transaction-acid-fundamentals) — "RDB 트랜잭션 vs Redis" 비교의 기준이 되는 RDB 쪽 ACID 개념
 - [INCR — 원자적 카운터](/database/redis/incr-atomic-counter) — 묶을 대상이 되는 대표 원자 명령
 - [Redis](/database/redis) — 도메인 인덱스

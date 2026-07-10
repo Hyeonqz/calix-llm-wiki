@@ -89,6 +89,7 @@ public void issue(...) { ... }
 
 ## Related
 
+- [트랜잭션과 ACID](/database/mysql/transaction-acid-fundamentals) — 이 페이지가 깊게 다루는 Isolation이 ACID 4가지 중 하나라는 더 넓은 맥락
 - [@TransactionalEventListener + @Transactional 충돌](/spring/transactional-event-listener) — AFTER_COMMIT 리스너와 전파
 - [MySQL InnoDB Buffer Pool](/database/mysql/mysql-innodb-buffer-pool) — InnoDB 내부 구조
 - [MySQL DATETIME vs TIMESTAMP](/database/mysql/mysql-datetime-timestamp)

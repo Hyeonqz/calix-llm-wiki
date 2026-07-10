@@ -276,3 +276,15 @@ sources/는 예전 이름 그대로 남아있던 것을 발견해 정리. spring
 - sources/claude-code/README.md → sources/ai-harness/claude-code/README.md (소스 목록 내용은 그대로)
 - sources/spring/, sources/thinking/ (신규 빈 폴더)
 - CLAUDE.md (도메인 목록·예시의 java-concurrency 표기 2곳 수정)
+
+## [2026-07-10] note | 트랜잭션과 ACID 기본기 노트 추가
+
+계좌 이체를 관통 예시로 트랜잭션 개념 + ACID 4가지(원자성/일관성/격리성/지속성)를 SQL과 함께 정리.
+Isolation은 깊이 다루지 않고 기존 격리수준 페이지로 위임, Redis MULTI/EXEC와의 대조로 "트랜잭션"이란
+단어가 기술마다 보장 범위가 다르다는 점을 짚음. 인터뷰 준비용이 아니라 기초 학습용이라 "면접" 표현은
+배제. `/wiki` 스킬에도 "항상 예시 기반 설명" 규칙을 명시적으로 추가.
+
+- content/database/mysql/transaction-acid-fundamentals.md (신규)
+- content/database/mysql/index.md, _meta.js (신규 페이지 반영)
+- content/spring/transaction-isolation-levels.md, content/database/redis/transactions-pipelining-lua.md (상호 링크 추가)
+- ~/.claude/skills/wiki/SKILL.md (예시 기반 설명 규칙 추가, 위키 스코프 밖이라 이 wiki repo 커밋에는 미포함)
