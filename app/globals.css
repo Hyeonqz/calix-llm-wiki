@@ -123,3 +123,32 @@ html.dark article td {
 html.dark footer {
   border-top-color: rgba(255, 255, 255, 0.08);
 }
+
+/* 전자책 읽기 화면 — 본문 폭(measure)과 장편용 타이포 */
+.book-reading {
+  max-width: 42rem;
+  margin-inline: auto;
+}
+.book-reading :is(p, li) {
+  font-size: 18px;
+  line-height: 1.9;
+}
+.book-reading p {
+  margin-bottom: 26px;
+}
+/* 각 장 상단 웹툰 요약컷 — 챕터의 문 */
+.book-reading img {
+  border-radius: 16px;
+  border: 1px solid #e5e8eb;
+}
+html.dark .book-reading img {
+  border-color: #252c38;
+}
+@media (max-width: 640px) {
+  .book-reading :is(p, li) {
+    font-size: 17px;
+  }
+  .book-reading img {
+    border-radius: 12px;
+  }
+}

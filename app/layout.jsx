@@ -8,6 +8,7 @@ import 'nextra-theme-docs/style.css'
 import './globals.css'
 import DocSearch from './DocSearch'
 import NavToggle from './NavToggle'
+import ReadingProgress from './ReadingProgress'
 
 function buildDocsIndex() {
   const contentDir = path.join(process.cwd(), 'content')
@@ -54,6 +55,7 @@ export default async function RootLayout({ children }) {
         />
       </Head>
       <body>
+        <ReadingProgress />
         <Layout
           navbar={
             <Navbar
