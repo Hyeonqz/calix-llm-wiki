@@ -21,6 +21,9 @@ export default {
   'backend-architecture': {
     title: 'Backend Architecture'
   },
+  books: {
+    title: '전자책 📖'
+  },
   'operating-system': {
     title: 'Operating System'
   },

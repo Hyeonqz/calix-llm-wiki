@@ -8,6 +8,8 @@ updated: 2026-06-15
 
 # DDD + Hexagonal Architecture 모범사례
 
+> 📖 서사적 딥다이브: [DDD라는 렌즈(7장)](/books/software-architecture/step-07-ddd)와 [세 형제 — 헥사고날·어니언·클린(8장)](/books/software-architecture/step-08-hexagonal-onion-clean). 이 노트는 실전 패키지 구조, 책 章은 "왜 이 구조가 이전 방식의 고통에서 태어났는가"를 다룬다.
+
 ## 개요
 
 DDD(Domain-Driven Design)의 Bounded Context 기반 패키지 구조와 Hexagonal Architecture(Ports & Adapters)를 결합한 아키텍처 패턴이다.

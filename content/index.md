@@ -18,6 +18,12 @@ LLM이 유지/관리하는 개인 지식 베이스.
 - [Java](/java) — 컬렉션 프레임워크(List 등)와 java.util.concurrent 학습 노트. CountDownLatch 등 동기화 도구, 스레드 풀, 가상 스레드
 - [AI Harness](/ai-harness) — 코딩 에이전트(Claude Code)와 그 위의 플러그인·에이전트 생태계 (OMC, Superpowers, gstack 등)
 
+## 전자책 📖
+
+원자 노트와 달리 처음부터 끝까지 순서대로 읽는 장편.
+
+- [소프트웨어 아키텍처 Deep Dive](/books/software-architecture) — 각 아키텍처를 "이전 방식의 고통"이 낳은 계기로 읽는 15장. 원론 → 발전사 → 실전 + 실행되는 예제 코드
+
 ## Activity
 
 - [Activity Log](/log) — 전체 작업 기록
