@@ -1,7 +1,12 @@
 # 트랜잭션 전자책 『약속된 데이터』 — 설계 문서
 
 날짜: 2026-07-15
-상태: 승인 대기
+상태: 구현 중 (플랫폼 완료, 집필 진행)
+
+> ⚠️ 경로 정정(2026-07-17): 아래 본문의 `content/book/`·`/book`·`/images/book/`·
+> `public/book/`는 실제 구현에서 **`content/books/transaction/`** 라우트 `/books/transaction`,
+> 삽화 `public/images/books/transaction/{장}/`, PDF `public/books/transaction/`로 통일됨.
+> (전자책 도서관을 `content/books/` 하나로 통합.) 신규 작업은 실제 경로를 정본으로 한다.
 
 ## 목적
 
