@@ -135,6 +135,7 @@ html.dark footer {
 }
 .book-reading p {
   margin-bottom: 26px;
+  line-height: 1.9 !important;
 }
 /* 각 장 상단 웹툰 요약컷 — 챕터의 문 */
 .book-reading img {
