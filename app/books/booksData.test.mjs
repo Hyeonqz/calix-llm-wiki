@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { parseFrontmatter, countChapters, countParts } from './booksData.mjs'
+import { parseFrontmatter, countChapters, countParts, parseBookNav } from './booksData.mjs'
 
 const META = `export default {
   index: '들어가며 (서문)',
@@ -41,4 +41,16 @@ status: 완간
 
 test('parseFrontmatter: 프론트매터 없으면 빈 객체', () => {
   assert.deepEqual(parseFrontmatter('# 제목만'), {})
+})
+
+test('parseBookNav: 부(part)/장(chapter)을 등장 순서대로 뽑는다', () => {
+  const nav = parseBookNav(META, 'sw')
+  // index + step 3개 + appendix 1개 = chapter 5, separator = part 3 → 총 8
+  assert.equal(nav.length, 8)
+  // 첫 항목은 index → 책 루트로 링크
+  assert.deepEqual(nav[0], { type: 'chapter', href: '/books/sw', label: '들어가며 (서문)' })
+  // 두 번째는 파트 헤더
+  assert.deepEqual(nav[1], { type: 'part', title: 'Part 1 · 원론' })
+  // step 챕터는 슬러그로 링크
+  assert.deepEqual(nav[2], { type: 'chapter', href: '/books/sw/step-01-birth', label: '01. 탄생' })
 })

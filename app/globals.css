@@ -153,3 +153,90 @@ html.dark .book-reading img {
     border-radius: 12px;
   }
 }
+
+/* 책 상세에서는 Nextra 위키 사이드바·우측 TOC를 숨기고 전용 목차만 쓴다.
+   .book-layout은 책 상세 페이지에만 서버 렌더되므로 :has()로 그 페이지에서만 적용(깜빡임 없음). */
+body:has(.book-layout) .nextra-sidebar,
+body:has(.book-layout) .nextra-toc {
+  display: none !important;
+}
+
+/* 전자책 상세 2단 레이아웃 — 좌: 전용 목차, 우: 읽기 본문 */
+.book-layout {
+  display: flex;
+  gap: 40px;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 8px 32px 96px;
+  align-items: flex-start;
+}
+.book-main {
+  flex: 1;
+  min-width: 0;
+}
+/* 책 상세에서는 본문을 조금 더 넓게 */
+.book-layout .book-reading {
+  max-width: 48rem;
+}
+
+/* 이전/다음 장 페이저 */
+.book-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 48rem;
+  margin: 56px auto 0;
+  padding-top: 28px;
+  border-top: 1px solid #e5e8eb;
+}
+html.dark .book-pager {
+  border-top-color: #252c38;
+}
+.book-pager-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 48%;
+  padding: 12px 16px;
+  border: 1px solid #e5e8eb;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.book-pager-next {
+  text-align: right;
+  align-items: flex-end;
+  margin-left: auto;
+}
+.book-pager-link:hover {
+  border-color: #3182f6;
+  transform: translateY(-2px);
+}
+.book-pager-dir {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8b95a1;
+}
+.book-pager-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #191f28;
+  line-height: 1.4;
+}
+html.dark .book-pager-link {
+  border-color: #252c38;
+}
+html.dark .book-pager-link:hover {
+  border-color: #6ea8fe;
+}
+html.dark .book-pager-label {
+  color: #f2f4f6;
+}
+
+@media (max-width: 768px) {
+  .book-layout {
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 16px 80px;
+  }
+}

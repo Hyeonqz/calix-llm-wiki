@@ -51,5 +51,8 @@ export default {
   },
   til: {
     display: 'hidden'
+  },
+  study: {
+    display: 'hidden'
   }
 }
