@@ -21,7 +21,7 @@ export default function BooksPage() {
 
       <ul className={styles.shelf}>
         {books.map((b) => (
-          <li key={b.slug} className={styles.shelfRow}>
+          <li key={b.slug}>
             <a href={b.href} className={styles.item}>
               <span className={styles.cover} aria-hidden="true">
                 <span className={styles.coverTitle}>{b.title}</span>
@@ -31,7 +31,7 @@ export default function BooksPage() {
                 {b.description && <span className={styles.desc}>{b.description}</span>}
                 <span className={styles.meta}>
                   {b.status && <em className={styles.badge}>{b.status}</em>}
-                  <span className={styles.metaText}>
+                  <span>
                     {b.chapters}개 챕터{b.parts ? ` · ${b.parts}개 파트` : ''}
                   </span>
                 </span>

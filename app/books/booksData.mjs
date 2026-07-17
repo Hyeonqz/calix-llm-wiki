@@ -15,20 +15,28 @@ export function parseFrontmatter(raw) {
   return fm
 }
 
-// _meta.js 소스에서 실제 챕터 수 = `'key': '문자열라벨'` 라인 중 index 제외.
-// separator 항목은 `'key': { ... }` 형태라 문자열 라벨 정규식에 걸리지 않음.
+// _meta.js 소스에서 실제 챕터(장) 수 = `'key': '문자열라벨'` 라인 중
+// index·부록(appendix)을 제외. separator 항목은 `'key': { ... }` 형태라
+// 문자열 라벨 정규식에 애초에 걸리지 않는다. 부록은 "장"이 아니므로 뺀다.
 export function countChapters(metaSource) {
   let n = 0
   for (const line of metaSource.split('\n')) {
     const m = line.match(/^\s*['"]?([\w-]+)['"]?\s*:\s*['"]/)
-    if (m && m[1] !== 'index') n++
+    if (m && m[1] !== 'index' && !m[1].startsWith('appendix')) n++
   }
   return n
 }
 
-// separator 개수 = 파트 수.
+// 파트 수 = separator 개수. 단 부록(appendix) 구분자는 파트로 세지 않는다.
 export function countParts(metaSource) {
-  return (metaSource.match(/type:\s*['"]separator['"]/g) || []).length
+  let n = 0
+  for (const line of metaSource.split('\n')) {
+    if (!/type:\s*['"]separator['"]/.test(line)) continue
+    const key = line.match(/^\s*['"]?([\w-]+)['"]?\s*:/)
+    if (key && /appendix|부록/i.test(key[1])) continue
+    n++
+  }
+  return n
 }
 
 // content/books/*/ 를 훑어 라이브러리 카드용 메타를 만든다.

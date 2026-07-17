@@ -16,13 +16,14 @@ const META = `export default {
   'appendix-a-d': '부록 A~D',
 }`
 
-test('countChapters: index·separator 제외한 챕터만 센다', () => {
-  // step 3개 + appendix 1개 = 4
-  assert.equal(countChapters(META), 4)
+test('countChapters: index·separator·부록 제외한 장만 센다', () => {
+  // step 3개 (appendix-a-d는 부록이라 제외) = 3
+  assert.equal(countChapters(META), 3)
 })
 
-test('countParts: separator 개수를 파트로 센다', () => {
-  assert.equal(countParts(META), 3)
+test('countParts: 부록 구분자를 제외한 파트만 센다', () => {
+  // _part1, _part2 = 2 (_appendix는 부록이라 제외)
+  assert.equal(countParts(META), 2)
 })
 
 test('parseFrontmatter: 따옴표를 벗겨 키-값을 뽑는다', () => {
