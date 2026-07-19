@@ -68,4 +68,14 @@
 
 ---
 
-> 이후 장(5장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 5장 · 전부 아니면 전무 — 원자성  (hero, 16:9, 현대 톤 · DEVELOPER)
+- [ ] 저장: `public/images/books/transaction/05/summary.png`
+- 연결 스니펫: `![이커머스 주문이 재고·결제·쿠폰 세 조각으로 맞물려 조립되다 한 조각이 빠지자 전체가 통째로 사라지는 장면](/images/books/transaction/05/summary.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), crisp screen glow, restrained tech palette, sparing cyan pop. Scene: an online order forming from three interlocking rounded blocks — labeled by simple icons of a box (stock), a card (payment), a ticket (coupon) — assembling into one whole; but one block is missing, so the entire assembly is collapsing and dissolving back to nothing at once — all-or-nothing. A single alert-red glow (#E03131) marks the missing block. THE DEVELOPER (a young present-day engineer, androgynous, warm medium skin, short tidy black hair, charcoal hoodie over a white tee, thin blue lanyard, simplified flat features) watches from the side. Focal metaphor centered. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(6장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
