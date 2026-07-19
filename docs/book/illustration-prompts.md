@@ -148,4 +148,14 @@
 
 ---
 
-> 이후 장(13장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 13장 · 시간을 여러 겹으로 — MVCC  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/13/webtoon.png`
+- 연결 스니펫: `![하나의 데이터가 시간축을 따라 반투명 여러 겹의 버전(사진)으로 쌓이고, 서로 다른 시점의 트랜잭션들이 각자 자기 시점 버전을 보며 아무도 안 막는 장면](/images/books/transaction/13/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: a single data card stacked into several translucent layered versions along a horizontal time axis, like photos of the same thing at different moments; simplified reader figures at different points each look at their own time-slice version without blocking one another. The current/newest version glows calm Toss-blue, older layers fade to grey. Focal metaphor: layered versions across time. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(14장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
