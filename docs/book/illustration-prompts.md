@@ -168,4 +168,14 @@
 
 ---
 
-> 이후 장(15장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 15장 · 재난 후의 복구 — WAL  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/15/webtoon.png`
+- 연결 스니펫: `![불길·정전이 덮친 데이터센터 옆에서 먼저 적어둔 로그 일기장을 펼쳐, 순서대로 재생(redo)해 복원하고 미완성 페이지는 지우며(undo) 데이터를 되살리는 장면](/images/books/transaction/15/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: beside a data center struck by a power-outage darkness and small flames (faint alert-red #E03131), a calm hand opens a pre-written 'log journal' and restores the data by replaying its ordered entries (redo) while erasing the half-finished last page (undo). Restoration succeeding marked calm commit-green (#12B886). Metaphor: the journal written first is what saves the data. No real people beyond a hand. Focal metaphor: the log journal restoring order after disaster. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(16장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
