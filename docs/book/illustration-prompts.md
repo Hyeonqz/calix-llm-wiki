@@ -58,4 +58,14 @@
 
 ---
 
-> 이후 장(4장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 4장 · SQL 표준이 세운 약속  (hero, 16:9, 전환 톤 · 인물 없음)
+- [ ] 저장: `public/images/books/transaction/04/summary.png`
+- 연결 스니펫: `![제각각 다른 모양의 데이터베이스들이 가운데 한 장의 SQL 표준 계약서에 같은 서명 라인으로 묶이는 장면](/images/books/transaction/04/summary.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: historical turning to modern, warm amber cooling toward steel-blue. Scene: several differently-shaped database cylinders, each speaking a different scattered symbol, are gathered around a single sheet of paper at the center — a contract — and joined to it by one shared signature line, becoming one common language. Dialect turning into a shared tongue. One Toss-blue accent on the unifying line. No people, objects and metaphor only. Focal metaphor centered. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(5장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
