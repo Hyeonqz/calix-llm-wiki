@@ -178,4 +178,14 @@
 
 ---
 
-> 이후 장(16장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 16장 · 서로를 붙든 채 멈추다 — 데드락  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/16/webtoon.png`
+- 연결 스니펫: `![두 사람이 각자 자물쇠 하나를 쥔 채 서로의 손목을 붙잡고 상대가 먼저 놓기를 기다리며 굳어버린 원형 교착, 뒤엔 밀린 대기열](/images/books/transaction/16/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: two simplified figures each holding one padlock, gripping each other's wrist in a frozen circular standoff — each waits for the other to let go first, staring at the lock the other holds; a deadlock loop. Behind them a queue of others piles up, blocked. The deadlock knot marked faint alert-red (#E03131). Focal metaphor: the mutual-hold circular standoff. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(17장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
