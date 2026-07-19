@@ -1,0 +1,7 @@
+---
+title: "17장. utf8은 진짜 UTF-8이 아니다 — MySQL utf8 vs utf8mb4"
+---
+
+# 17장. utf8은 진짜 UTF-8이 아니다 — MySQL utf8 vs utf8mb4
+
+> 🚧 집필 중 — 곧 채워집니다.
