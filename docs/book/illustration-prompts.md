@@ -118,4 +118,14 @@
 
 ---
 
-> 이후 장(10장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 10장 · 네 개의 문 — 격리 수준  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/10/summary.png`
+- 연결 스니펫: `![낮은 문에서 높은 문으로 이어지는 4단 계단, 위로 갈수록 세 유령이 하나씩 차단되고 맨 위 문은 완전 봉쇄지만 통로가 좁아 줄 서 기다리는 장면](/images/books/transaction/10/summary.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: a four-step staircase of doorways rising from a low wide-open gate to a high narrow gate; at each higher door, one more small ghost is blocked out — the lowest gate lets all three ghosts through, the highest gate blocks them all but its passage is so narrow that simplified figures queue and wait (safe but slow). Passing-through marked calm Toss-blue, blocked ghosts faint grey. Focal metaphor: the ascending gated staircase. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(11장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
