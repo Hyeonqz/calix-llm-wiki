@@ -188,4 +188,14 @@
 
 ---
 
-> 이후 장(17장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 17장 · 프레임워크가 숨긴 트랜잭션 경계  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/17/webtoon.png`
+- 연결 스니펫: `![@Transactional 한 줄 뒤에 숨은 프록시 '문지기'가 트랜잭션을 열고 닫는데, 안에서 부른 호출은 문지기를 건너뛰고 외부 API 호출이 커넥션을 인질로 잡는 장면](/images/books/transaction/17/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: a proxy 'gatekeeper' figure standing at a doorway opening and closing a transaction boundary line; one call sneaks in through a side path bypassing the gatekeeper (self-invocation), and a long thread to an external API cog holds a shared connection token hostage while others wait — a quietly draining pool. The trouble points marked faint alert-red (#E03131), the boundary line calm Toss-blue. Focal metaphor: the gatekeeper at the transaction boundary and what slips past it. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(18장)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
