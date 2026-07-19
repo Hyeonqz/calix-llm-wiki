@@ -98,4 +98,14 @@
 
 ---
 
-> 이후 장(8장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 8장 · 한번 약속하면 영원히 — 지속성  (hero, 16:9, 현대 톤 · 인물 없음)
+- [ ] 저장: `public/images/books/transaction/08/summary.png`
+- 연결 스니펫: `![결제 완료 도장이 찍힌 데이터가 디스크에 깊이 새겨져, 옆에서 정전·불꽃이 닥쳐도 먼저 적어둔 로그 덕에 지워지지 않는 장면](/images/books/transaction/08/summary.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), crisp screen glow, restrained tech palette. Scene: a 'completed' stamp of data engraved deeply into a disk platter, staying intact while a power-outage darkness and small flames threaten from the side — surviving because a simple sequential logbook was written first, off to the left. A small calm commit-green (#12B886) mark on the sealed stamp; faint alert-red (#E03131) on the threat. Permanence against disaster. No people, objects and metaphor only. Focal metaphor centered. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(9장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
