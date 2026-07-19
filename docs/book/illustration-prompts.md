@@ -138,4 +138,14 @@
 
 ---
 
-> 이후 장(12장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 12장 · 자물쇠를 채우다 — 락  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/12/webtoon.png`
+- 연결 스니펫: `![데이터 레코드마다 자물쇠가 걸리고, 열쇠를 든 트랜잭션들이 한 줄로 서서 자기 차례를 기다리는 장면 — 한 명이 쥐면 나머지는 대기](/images/books/transaction/12/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: rounded data record cards each sealed with a small padlock; simplified key-holding transaction figures stand in a single orderly queue waiting their turn — one figure currently holds a key and opens one card (marked calm Toss-blue), the rest wait behind (steel grey). Safe but the line is long. Focal metaphor: locked records and a waiting queue. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(13장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
