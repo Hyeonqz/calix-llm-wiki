@@ -88,4 +88,14 @@
 
 ---
 
-> 이후 장(7장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 7장 · 서로를 방해하지 않는 척 — 격리성  (hero, 16:9, 현대 톤 · 인물 여럿 실루엣)
+- [ ] 저장: `public/images/books/transaction/07/summary.png`
+- 연결 스니펫: `![반투명 유리 부스 안의 여러 사람이 같은 '마지막 좌석 하나' 문서를 동시에 읽고 쓰는, 서로 안 보이는 척하지만 결과는 하나여야 하는 긴장](/images/books/transaction/07/summary.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), crisp screen glow, restrained tech palette. Scene: several simplified people, each inside their own translucent glass booth, all simultaneously reaching to read and mark the SAME single document at the center representing 'the last remaining seat' — each pretends to be alone, yet they overlap on the same spot; a quiet tension. One overlap point marked faint alert-red (#E03131) where two touch the same seat. Focal metaphor centered. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(8장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
