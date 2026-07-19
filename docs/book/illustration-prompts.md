@@ -158,4 +158,14 @@
 
 ---
 
-> 이후 장(14장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 14장 · 믿음의 문제 — 낙관적 제어  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/14/webtoon.png`
+- 연결 스니펫: `![두 트랜잭션이 각자 외줄을 건너가고, 끝의 충돌 검사관이 버전 도장을 확인해 먼저 온 쪽은 통과·늦게 온 쪽은 되돌려보내는 장면](/images/books/transaction/14/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: two simplified transaction figures each cross their own tightrope without locking anything; at the far end a 'conflict inspector' checks a version stamp — the one who arrived first passes through (calm commit-green #12B886), the later one is gently turned back with a 'it changed already' gesture (faint alert-red #E03131). No locking, only an end-of-line check. Focal metaphor: two crossings, one inspector at the finish. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(15장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
