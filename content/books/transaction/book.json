@@ -1,0 +1,11 @@
+{
+  "title": "약속된 데이터",
+  "voice": "modern Korean dev-blog tone (velog/토스 기술블로그). 독자에게 말 걸고, 짧고 리듬감 있는 문장, dev 어휘(쿼리·락·@Transactional)·인라인 코드. 비소설체 — purple prose·문어체 경직 금지.",
+  "structure": ["배경", "스토리", "핵심", "정리", "생각해볼 질문"],
+  "styleGuide": "docs/book/style-guide.md",
+  "promptQueue": "docs/book/illustration-prompts.md",
+  "editorAgent": "book-editor",
+  "spec": "docs/superpowers/specs/2026-07-15-transaction-ebook-design.md",
+  "buildCmd": "npm run build",
+  "commit": { "type": "docs", "scope": "book" }
+}
