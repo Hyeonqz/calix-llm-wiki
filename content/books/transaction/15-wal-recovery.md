@@ -2,14 +2,17 @@
 title: "15장. 재난 후의 복구 — WAL"
 ---
 
-{/* 삽화 자리 — 웹툰식 요약 1컷 (hero, 16:9, 현대 톤 · 은유적)
-프롬프트: 불길·정전이 덮친 데이터센터 옆에서, 먼저 적어둔 "로그 일기장"을 펼쳐 데이터를
-원래대로 되살리는 장면. 일기장의 순서대로 재생(redo)해 복원, 미완성 페이지는 지움(undo).
-차가운 현대 톤 + 위험=alert-red, 복원 성공=commit-green 미세.
-[STYLE PREFIX] + 현대 ERA + --ar 16:9 --style raw --no ...
-→ public/images/books/transaction/15/webtoon.png */}
-
 # 15장. 재난 후의 복구 — WAL
+
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/15/webtoon.png)
+
+*만화로 보는 요약 — 먼저 읽어보세요*
+
+**로그를 먼저 쓴다 → 크래시 후 REDO로 되살린다 → 미완성 작업은 UNDO로 지워 A와 D를 지킨다.**
+
+> 면접 실전 질문: ① WAL이 실제 데이터보다 로그를 먼저 쓰는 이유 ② REDO와 UNDO의 역할 ③ 체크포인트가 복구 시간을 줄이는 방식
+
+---
 
 ## 배경 — 갚아야 할 빚
 

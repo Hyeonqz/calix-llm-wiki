@@ -2,14 +2,17 @@
 title: "3장. System R과 하나의 단어"
 ---
 
-{/* 삽화 자리 — 웹툰식 요약 1컷 (hero, 16:9, 역사→전환 톤 · THE PIONEER)
-프롬프트: 1970년대 IBM 연구소 화이트보드 앞. 화이트보드에 처음으로 "BEGIN … COMMIT"이
-적히는 순간, 흩어져 있던 자물쇠·로그북·저울 아이콘이 하나의 원(圓)으로 묶인다.
-연구원이 마커를 든 채 뒤돌아 본다. 따뜻한 조명에서 살짝 식은 중립 톤, amber→steel 전환.
-[STYLE PREFIX] + 역사 ERA ACCENT + THE PIONEER 블록 + --ar 16:9 --style raw --no ...
-→ public/images/books/transaction/03/summary.png */}
-
 # 3장. System R과 하나의 단어
+
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/03/webtoon.png)
+
+*만화로 보는 요약 — 먼저 읽어보세요*
+
+**로그와 잠금은 있었지만 이름이 없었다 → System R이 작업 단위에 transaction이라는 규칙을 붙였다 → 직렬성이 안전한 동시 실행의 기준이 되었다.**
+
+> 면접 실전 질문: ① System R이 트랜잭션에 준 정의 ② 논리적 작업 단위의 의미 ③ 직렬성이 안전성 기준인 이유
+
+---
 
 ## 배경 — 이름이 없으면 다룰 수 없다
 
