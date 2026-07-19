@@ -198,4 +198,24 @@
 
 ---
 
-> 이후 장(18장)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 18장 · 경계를 넘는 약속 — 분산 트랜잭션  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/transaction/18/webtoon.png`
+- 연결 스니펫: `![여러 도시(서비스)를 잇는 하나의 계약서가 붉은 실로 묶이고, 실이 한 곳에서 끊기면 전체가 흔들리는 분산 트랜잭션의 지도 — 마지막에 1장 회계사의 손과 오버랩](/images/books/transaction/18/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), restrained tech palette. Scene: a stylized map where several separate service cities (each a small database node) are bound together by a single contract thread; the thread is tied through all of them, and where it frays at one point the whole binding trembles — one promise across many DBs. The binding thread glows calm Toss-blue, the fraying point faint alert-red (#E03131). Focal metaphor: one contract thread binding many cities. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+## 닫는 글 · 다시, 커밋 앞에서  (hero, 16:9, 현대 톤 · DEVELOPER, 여는 글과 동일 --cref/시드)
+- [ ] 저장: `public/images/books/transaction/99/webtoon.png`
+- 연결 스니펫: `![여는 글의 그 ATM 앞에 다시 선 개발자, 이번엔 화면 뒤에서 돌아가는 트랜잭션 메커니즘(자물쇠·로그·네 약속)이 투명하게 비쳐 보이고 안심한 표정 — 수미상관](/images/books/transaction/99/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), crisp screen glow. Scene: THE DEVELOPER (a young present-day engineer, androgynous, warm medium skin, short tidy black hair, charcoal hoodie over a white tee, thin blue lanyard, simplified flat features — SAME character as the opening ATM scene, reuse --cref) stands again before the same night ATM from the opening, but now the transaction machinery behind the screen is faintly transparent and visible: padlocks, a logbook, and the four promises working together, keeping the money safe. The developer looks calm and reassured. A gentle commit-green (#12B886) glow of safety. Bookend/full-circle mood. Focal metaphor: the reader standing again where they began, now seeing what protects them. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+🎉 **전체 삽화 프롬프트 완성 (여는 글 + 1~18장 + 닫는 글 = 20컷).**
