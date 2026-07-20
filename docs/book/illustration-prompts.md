@@ -238,4 +238,14 @@
 
 ---
 
-> 이후 장(1장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 1장 · 봉화와 깃발 — 신호로 말을 나르다  (hero, 16:9, 역사 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/01/webtoon.png`
+- 연결 스니펫: `![산봉우리마다 봉화가 릴레이로 이어지고, 언덕 위 두 사람이 각자 같은 코드북을 보며 깃발 신호를 주고받는 장면](/images/books/encoding/01/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: historical, warm candlelit-to-daylight scene, amber and honey accents (#E0983A, glow #F6CE7B), aged-paper and wood tones, clay skin (#C97C5A). Scene: a chain of signal-fire beacons relaying across mountain peaks into the distance; in the foreground, two people on separate hills each hold up a flag while consulting the SAME small codebook — a shared agreement table is what makes the signal mean something. The signal-relay line marked a faint calm Toss-blue (#3182F6). No modern objects. Focal metaphor: beacon relay + two people reading the same codebook. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(2장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
