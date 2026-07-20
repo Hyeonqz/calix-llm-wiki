@@ -248,4 +248,14 @@
 
 ---
 
-> 이후 장(2장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 2장 · 모스, 점과 선으로 쪼개다  (hero, 16:9, 역사 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/02/webtoon.png`
+- 연결 스니펫: `![전신 키를 두드리는 손에서 전선을 타고 점(·)과 선(—)이 흐르고, 자주 쓰는 글자는 짧게 드문 글자는 길게 리듬처럼 이어지는 장면](/images/books/encoding/02/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: historical, warm workshop light, amber and honey accents (#E0983A, glow #F6CE7B), aged brass and wood tones, clay skin (#C97C5A). Scene: a hand pressing a telegraph key; from it, a wire carries a stream of short dots and long dashes, some letters rendered short and some long (variable-length rhythm) flowing along the line into the distance. A subtle sense that frequent marks are shorter. The signal flow along the wire marked a faint calm Toss-blue (#3182F6). No modern screens. Focal metaphor: a telegraph key sending dots and dashes of varying length down a wire. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(3장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
