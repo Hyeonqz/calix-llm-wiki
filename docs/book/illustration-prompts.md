@@ -219,3 +219,23 @@
 ---
 
 🎉 **전체 삽화 프롬프트 완성 (여는 글 + 1~18장 + 닫는 글 = 20컷).**
+
+---
+
+# 『깨지지 않는 글자』 (문자 인코딩) 삽화 프롬프트 큐
+
+> 두 번째 책. 같은 스타일 가이드(`docs/book/style-guide.md`) 프리픽스 사용. 저장 경로는
+> `public/images/books/encoding/{장}/webtoon.png`. 캐릭터(THE DEVELOPER)는 트랜잭션 책과
+> 같은 `--cref`로 물려 시리즈 일관성 유지.
+
+## 여는 글 · ???만 남은 이력서  (hero, 16:9, 현대 톤 · DEVELOPER)
+- [ ] 저장: `public/images/books/encoding/00/webtoon.png`
+- 연결 스니펫: `![노트북 화면의 이력서가 이름·경력 자리까지 전부 깨진 글자로 뒤덮이고, 당황한 개발자가 화면을 보는 장면](/images/books/encoding/00/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: present day, cool clean interior, steel-blue accents (#4E5968), crisp screen glow. Scene: a laptop screen showing a résumé document whose name, career, and intro fields are entirely overrun by broken/garbled glyph shapes (abstract corrupted-character blocks, NOT real letters) — the text has 'evaporated' into noise. THE DEVELOPER (a young present-day engineer, androgynous, warm medium skin, short tidy black hair, charcoal hoodie over a white tee, thin blue lanyard, simplified flat features — reuse the transaction book's opening character via --cref) stares at the screen, dismayed, one hand raised in confusion. The corrupted region marked faint alert-red (#E03131). Focal metaphor: a document whose letters have broken into noise. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(1장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
