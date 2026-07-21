@@ -298,4 +298,14 @@
 
 ---
 
-> 이후 장(7장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 7장 · EUC-KR, 완성형과 조합형 — 한국의 선택  (hero, 16:9, 현대·한국 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/07/webtoon.png`
+- 연결 스니펫: `![갈림길에서 한 사람이 고민하는 장면. 왼쪽 길엔 완성된 한글 음절 블록을 사전처럼 통째로 진열한 거대한 진열장인데 군데군데 빈 칸에 '품절' 딱지가 붙어 있고, 오른쪽 길엔 자음·모음 조각을 레고처럼 조립해 어떤 음절이든 만들어내는 작업대가 있다](/images/books/encoding/07/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern Korean computing, clean cool tones with warm paper base. Scene: a forked road seen from behind a single contemplative figure choosing between two paths. LEFT path: a huge display cabinet of pre-assembled complete syllable-blocks arranged like a dictionary (the 'completed form' / lookup table), but with several empty gaps bearing small 'sold out' tags (the 2,350-character limit — missing syllables). RIGHT path: a workbench where small consonant and vowel pieces are assembled like lego into any syllable on demand (the 'combining form'). Contrast between two philosophies: memorize-whole vs assemble-from-parts. Use simple geometric glyph silhouettes, no real readable text. The fork junction and the empty 'sold out' gaps marked a faint calm Toss-blue (#3182F6). Focal metaphor: a person at a fork choosing between a gap-riddled cabinet of whole blocks and a workbench that assembles parts. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(8장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
