@@ -338,4 +338,14 @@
 
 ---
 
-> 이후 장(11장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 11장 · 모든 문자에 번호를 — 유니코드와 코드포인트  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/11/webtoon.png`
+- 연결 스니펫: `![지구상 온갖 문자(라틴·한글·한자·아랍·이모지)가 하나의 거대한 통합 서가에 저마다 고유한 U+ 번호표를 달고 정연히 꽂혀 있고, 나라별로 갈라져 싸우던 작은 표들이 하나의 목록으로 합쳐지는 장면. 단 이 서가는 번호만 매긴 목록일 뿐 배송 상자(바이트)는 아직 따로 비어 있다](/images/books/encoding/11/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, hopeful and unifying tone. Scene: a single vast unified library shelf where glyphs from many of the world's scripts (latin, hangul, han/kanji, arabic, plus an emoji-like face — all as simple geometric silhouettes, no real readable text) are neatly filed, each carrying its own unique little number tag shaped like 'U+____'. Several small separate national code-tables in the foreground are shown merging into this one unified catalog. Importantly, the shelf only assigns NUMBERS — beside it sit empty shipping boxes (bytes) not yet packed, making clear the catalog decides the number but not yet how to box it. Calm sense of order after chaos. The unified catalog and the U+ tags marked a faint calm Toss-blue (#3182F6). Focal metaphor: one unified numbered catalog of all scripts, with byte-boxes still empty and separate. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(12장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
