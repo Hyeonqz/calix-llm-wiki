@@ -308,4 +308,14 @@
 
 ---
 
-> 이후 장(8장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 8장 · CP949 — 통합 완성형의 확장  (hero, 16:9, 현대·한국 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/08/webtoon.png`
+- 연결 스니펫: `![7장의 품절 딱지 붙은 진열장에, 누군가 기존 칸은 하나도 건드리지 않고 옆 빈 선반에 나머지 음절 블록을 채워 넣어 11,172칸을 꽉 채우는 장면. 그런데 새로 채운 블록 몇 개의 뒷면에 하필 알파벳 라벨이 찍혀 있어 살짝 불안한 기운](/images/books/encoding/08/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern Korean computing, clean cool tones with warm paper base. Scene: the same display cabinet of syllable-blocks from chapter 7, previously gap-riddled with 'sold out' tags, is now being completed — a figure (implying a large software vendor) adds the remaining syllable-blocks onto the adjacent empty shelves WITHOUT touching any of the existing filled slots (backward compatibility), so the whole cabinet reaches a full, satisfying set. But a few of the newly added blocks have, on their back faces, a small latin-alphabet label peeking out (the ASCII byte collision), giving a subtle uneasy undertone. Contrast: the relief of a filled, compatible set vs a hidden trap on some new pieces. Use simple geometric glyph silhouettes, no real readable text. The newly filled shelves and the peeking alphabet labels marked a faint calm Toss-blue (#3182F6). Focal metaphor: an existing cabinet completed by adding new blocks on empty shelves, a few new blocks hiding an alphabet label on the back. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(9장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
