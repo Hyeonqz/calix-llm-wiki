@@ -278,4 +278,14 @@
 
 ---
 
-> 이후 장(5장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 5장 · 남은 한 비트의 유혹 — 확장 ASCII와 코드페이지  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/05/webtoon.png`
+- 연결 스니펫: `![겉모양과 번호표가 똑같은 서랍장이 나라별로 늘어서 있는데 속에 든 글자들은 제각각이고, 편지 한 통이 엉뚱한 나라의 서랍에 꽂혀 물음표 그림자가 지는 장면](/images/books/encoding/05/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern institutional, cool paper and steel tones, quiet international-office atmosphere. Scene: a row of identical filing cabinets standing side by side, each representing a different country — the cabinets and their small number plates look exactly the same, but the abstract letter-shapes filling each one differ (accented latin forms, cyrillic-like forms, greek-like forms, box-drawing motifs), rendered as simple geometric glyph silhouettes, no real text. In the center, a single letter/envelope has been slotted into the wrong country's cabinet, casting a soft question-mark-shaped shadow. Contrast: identical exteriors, mismatched interiors. The misdelivered envelope and its shadow marked a faint calm Toss-blue (#3182F6). Focal metaphor: identical numbered drawers holding different alphabets, one letter delivered to the wrong drawer. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(6장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
