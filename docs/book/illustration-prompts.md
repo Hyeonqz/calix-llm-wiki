@@ -268,4 +268,14 @@
 
 ---
 
-> 이후 장(4장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 4장 · 왜 하필 7비트였나 — ASCII의 탄생  (hero, 16:9, 현대 초입 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/04/webtoon.png`
+- 연결 스니펫: `![정확히 128칸이 반듯하게 라벨링된 미국식 서류 캐비닛에 숫자·영문 대문자·소문자가 순서대로 꽉 들어찼고, 옆에는 라벨 없는 텅 빈 8번째 서랍 하나가 열린 채 남아 있는 장면](/images/books/encoding/04/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: early modern / mid-century American standards office, cooled steel and paper tones with a faint warm memory of amber (#E0983A), clean institutional order. Scene: a neat American filing cabinet whose drawers are exactly, orderly labeled into 128 uniform slots — digits, uppercase and lowercase English letters lined up in sequence, filling the cabinet snugly with English only. Beside it, one unlabeled 'eighth' drawer stands open and completely empty, a quietly ominous blank space (foreshadowing). Contrast: the crisp order of a standard vs the empty unknown slot. The open empty drawer's shadow marked a faint calm Toss-blue (#3182F6). No modern computer screens. Focal metaphor: an orderly 128-slot English-only cabinet next to one empty unclaimed drawer. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(5장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
