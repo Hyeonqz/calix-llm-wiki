@@ -318,4 +318,14 @@
 
 ---
 
-> 이후 장(9장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 9장 · Shift-JIS와 바다 건너의 혼란  (hero, 16:9, 현대·일본 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/09/webtoon.png`
+- 연결 스니펫: `![두 칸짜리 한자 블록의 두 번째 칸에 하필 역슬래시 모양이 박혀 있고, 그 역슬래시가 칼처럼 작동해 뒤따르는 코드와 파일 경로를 엉뚱한 데서 잘라 깨뜨리는 장면. 같은 역슬래시 자리가 다른 화면에선 엔화(¥) 기호로 보이는 한 바이트 두 얼굴의 분열](/images/books/encoding/09/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern Japanese computing, cool paper and steel tones. Scene: a two-slot CJK character block whose SECOND slot contains a backslash shape. That backslash acts like a blade, slicing through a following line of code and a file path so they break apart at the wrong place (a character bleeding into syntax). To the side, the very same backslash slot is shown twice — one screen renders it as a backslash, another renders it as a yen sign (one byte, two faces / split identity). Uneasy sense of a hidden character corrupting structure. Use simple geometric glyph silhouettes, no real readable text. The break lines and the split backslash/yen slot marked a faint calm Toss-blue (#3182F6). Focal metaphor: a backslash hidden inside a kanji block cutting code and paths, the same slot showing as backslash or yen. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(10장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
