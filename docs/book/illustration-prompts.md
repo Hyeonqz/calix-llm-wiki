@@ -288,4 +288,14 @@
 
 ---
 
-> 이후 장(6장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 6장 · 2바이트의 세계 — 한자와 한글을 담다  (hero, 16:9, 현대·동아시아 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/06/webtoon.png`
+- 연결 스니펫: `![한 줄에 영문은 한 칸짜리 작은 블록으로, 한자·한글은 두 칸을 이어 붙인 긴 블록으로 섞여 늘어서 있고, 두 칸 블록의 첫 칸에는 '여기서부터 두 칸' 깃발 표식이 달린 장면. 한쪽에서 두 칸 블록 한가운데를 가위로 자르려다 반쪽만 남아 깨진 조각](/images/books/encoding/06/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern East-Asian computing, clean cool tones with a subtle warm paper base. Scene: a single horizontal row of blocks — small single-width blocks (representing ASCII letters, one slot each) interspersed with longer double-width blocks (representing CJK characters, two slots joined into one). Each double-width block carries a small flag marker on its FIRST slot meaning "a two-slot character starts here" (the lead byte / high bit). To one side, a pair of scissors is cutting a double-width block right through its middle, leaving a broken half-block fragment — a visual of slicing a character in half. Simple geometric glyph silhouettes only, no real readable text. The joints between paired slots and the broken cut marked a faint calm Toss-blue (#3182F6). Focal metaphor: single-slot vs double-slot blocks in one row, a flag on the first slot, one block sliced in half. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(7장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
