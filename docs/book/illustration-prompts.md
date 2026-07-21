@@ -258,4 +258,14 @@
 
 ---
 
-> 이후 장(3장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 3장 · 보도 코드와 5비트의 기계  (hero, 16:9, 역사→기계 전환 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/03/webtoon.png`
+- 연결 스니펫: `![텔레타이프 기계가 고정 폭 5칸짜리 구멍 테이프를 드르륵 자동으로 읽어 글자를 찍어내고, 모든 글자가 똑같은 5칸 폭이라 기계가 헤매지 않는 장면. 한쪽엔 문자/숫자 전환 레버](/images/books/encoding/03/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: transition from historical to machine age, warm amber workshop light (#E0983A, glow #F6CE7B) cooling toward steel grey, aged brass and iron machinery. Scene: a teleprinter / teletype machine automatically feeding a long punched paper tape; the tape is divided into uniform fixed-width columns of five holes each, every character the same 5-slot width, so the machine reads it smoothly without hesitation and stamps out letters. On the side, a small labeled lever for switching between letters-mode and figures-mode (shift). The steady flow of the tape through the machine marked a faint calm Toss-blue (#3182F6). No modern computer screens. Focal metaphor: a machine reading fixed-width 5-slot tape effortlessly, five holes per character. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(4장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
