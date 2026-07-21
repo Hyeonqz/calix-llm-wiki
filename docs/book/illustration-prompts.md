@@ -328,4 +328,14 @@
 
 ---
 
-> 이후 장(10장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 10장 · ???의 정체 — 모지바케는 왜 생기나  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/10/webtoon.png`
+- 연결 스니펫: `![글자 하나가 '인코딩(글자→바이트)' 문을 지나 바이트 꾸러미가 되고 다시 '디코딩(바이트→글자)' 문을 지나 글자로 복원되는 왕복 파이프라인. 입구 문과 출구 문에 붙은 약속표가 서로 달라서 출구에서 나온 글자가 ???와 교체문자로 깨져 나오는 장면](/images/books/encoding/10/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, timeless diagram-like clarity. Scene: a left-to-right round-trip pipeline — a single clean glyph enters a labeled door marked 'encode (glyph to bytes)', becomes a little bundle of byte-cards, travels along, then enters a second labeled door marked 'decode (bytes to glyph)'. But the small reference chart pinned to the entry door and the chart pinned to the exit door are visibly DIFFERENT tables, so the glyph that emerges from the exit is broken — coming out as a garbled placeholder shape and a replacement-character diamond. The mismatch between the two charts is the clear culprit. Use simple geometric glyph and card silhouettes, no real readable text. The two mismatched charts and the broken output marked a faint calm Toss-blue (#3182F6). Focal metaphor: a byte round-trip pipeline breaking because the encode-door chart and decode-door chart don't match. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(11장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
