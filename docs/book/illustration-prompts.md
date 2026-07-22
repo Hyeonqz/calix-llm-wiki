@@ -358,4 +358,14 @@
 
 ---
 
-> 이후 장(13장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 13장 · 가변 길이의 우아함 — UTF-8은 어떻게 동작하나  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/13/webtoon.png`
+- 연결 스니펫: `![바이트 조각마다 맨 앞에 깃발 표식이 달려 자기 역할을 스스로 알리는 장면 — '0' 깃발은 혼자 서는 1바이트(ASCII), '110/1110/11110' 깃발은 뒤로 몇 조각이 따라온다는 리더, '10' 깃발은 따라가는 조각. 아무 데서 끊겨도 조각들이 스스로 제자리를 찾아 재정렬되는 우아한 질서](/images/books/encoding/13/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, elegant diagram-like clarity. Scene: a row of byte-tiles where each tile carries a small flag marker at its front announcing its own role — a '0' flag tile stands alone as a single (ASCII) byte, tiles with '110 / 1110 / 11110' flags are leaders declaring how many tiles follow them, and '10' flag tiles wear a little badge marking them as continuation pieces. Because every continuation piece is self-labeled, even when the row is cut at a random point the tiles can realign themselves and find their boundaries again (self-synchronization), conveyed as pieces snapping back into correct groups. Simple geometric tile silhouettes, no real readable text. The flag markers and the self-realigning boundaries marked a faint calm Toss-blue (#3182F6). Focal metaphor: self-labeling byte-tiles with leader/continuation flags that re-align after being cut. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(14장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
