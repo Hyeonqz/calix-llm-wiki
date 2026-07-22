@@ -378,4 +378,14 @@
 
 ---
 
-> 이후 장(15장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 15장 · BOM과 이모지 — 눈에 안 보이는 바이트들  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/15/webtoon.png`
+- 연결 스니펫: `![화면엔 깔끔한 텍스트 한 줄과 이모지 하나만 보이는데, 밑을 들추면 맨 앞에 투명한 유령 바이트 세 개(BOM)가 숨어 코드 첫 줄을 걸어 넘어뜨리고, 이모지 하나는 속을 열어보니 여러 개의 작은 조각(코드포인트)이 보이지 않는 접착제(ZWJ)로 이어 붙어 있는 장면](/images/books/encoding/15/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, clean with a subtle uncanny undertone. Scene: on the surface a tidy single line of text and one emoji-like glyph appear; but the illustration lifts a corner to reveal what is hidden underneath. At the very front, three faint translucent 'ghost' byte-tiles (a BOM) hide and trip up the first line of code like an invisible tripwire. The single emoji glyph, when opened up, is revealed to be several small separate pieces (code points) held together by an invisible glue connector (a zero-width joiner). Theme: what looks like one thing on screen is actually many hidden pieces underneath — visible one vs hidden many. Simple geometric tile and glyph silhouettes, no real readable text. The ghost BOM tiles and the hidden joiner glue marked a faint calm Toss-blue (#3182F6). Focal metaphor: hidden ghost bytes tripping code, and one emoji secretly made of joined pieces. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(16장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
