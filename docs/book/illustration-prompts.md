@@ -408,4 +408,14 @@
 
 ---
 
-> 이후 장(18장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 18장 · 깨진 글자를 디버깅하다 — 인코딩 버그 현장  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/18/webtoon.png`
+- 연결 스니펫: `![탐정이 된 개발자가 깨진 글자(???·ë°¸ë¦°·�) 앞에서 돋보기로 겉 글자가 아니라 그 아래 진짜 바이트(16진수 조각)를 들여다보고, 입력→앱→DB→출력 파이프라인 위에서 딱 한 구간의 약속표 라벨이 어긋나 범인으로 지목되는 장면](/images/books/encoding/18/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, calm and methodical detective mood. Scene: a developer as a detective examines a broken/garbled glyph with a magnifying glass, but instead of looking at the surface broken character, the lens reveals the true underlying bytes (little hexadecimal tiles) beneath it. Behind, a left-to-right pipeline of gateways labeled input, app, database, output is drawn; at exactly one gateway the small encoding-table label is mismatched and highlighted as the culprit, while the others match. Theme: open the bytes, trace the stage, find where the agreement broke. Simple geometric glyph, tile, and figure silhouettes, no real readable text. The magnified true bytes and the single mismatched gateway marked a faint calm Toss-blue (#3182F6). Focal metaphor: a detective reading the real bytes under a broken glyph and pinpointing the one mismatched gateway in the pipeline. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 닫는 글(99)은 별도로 집필한다. 이후 새 장은 이 아래에 같은 형식으로 추가된다.
