@@ -398,4 +398,14 @@
 
 ---
 
-> 이후 장(17장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 17장 · utf8은 진짜 UTF-8이 아니다 — MySQL utf8 vs utf8mb4  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/17/webtoon.png`
+- 연결 스니펫: `![utf8 간판이 붙은 데이터베이스 창고 입구가 3칸짜리 좁은 문이라 3칸 손님(한글·한자, BMP)은 통과하는데 4칸을 차지하는 이모지 손님이 문틀에 걸려 'Incorrect string value' 팻말과 함께 입장 거부당하고, 옆에는 4칸까지 받는 넓은 utf8mb4 문이 있는 장면](/images/books/encoding/17/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, clean and slightly wry. Scene: a database warehouse entrance with a sign reading like a false label ('utf8'), but its doorway is a narrow slot only three units wide. Three-unit-wide guests (representing BMP characters like hangul and han) pass through fine, but a four-unit-wide emoji guest gets stuck in the doorframe and is turned away, beside a small rejection placard (an 'incorrect value' sign). Next to it stands a wider, correctly sized door labeled to accept four units ('utf8mb4'), through which the emoji guest fits. Theme: the sign lied about the real capacity. Simple geometric figure and door silhouettes, no real readable text. The blocked doorway and the rejection marked a faint calm Toss-blue (#3182F6). Focal metaphor: a mislabeled three-wide door rejecting a four-wide emoji guest while a proper four-wide door accepts it. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(18장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
