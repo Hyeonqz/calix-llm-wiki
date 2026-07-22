@@ -418,4 +418,14 @@
 
 ---
 
-> 닫는 글(99)은 별도로 집필한다. 이후 새 장은 이 아래에 같은 형식으로 추가된다.
+## 닫는 글 · 다시, 글자 앞에서  (hero, 16:9, 현대 톤 · DEVELOPER, 여는 글과 수미상관)
+- [ ] 저장: `public/images/books/encoding/99/webtoon.png`
+- 연결 스니펫: `![여는 글에서 ???로 깨져 있던 그 이력서가 이번엔 멀쩡한 글자로 또렷이 복원돼 화면에 떠 있고, 개발자가 당황이 아니라 차분한 표정으로 화면 아래 흐르는 바이트(봉화→모스→ASCII→유니코드→UTF-8로 이어지는 긴 흐름)를 이해한 눈으로 바라보는 장면](/images/books/encoding/99/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, resolved and quietly hopeful (bookend to the opening). Scene: a laptop shows a resume document that, in the opening image, was covered in broken garbled glyphs — but now it is fully restored into clean legible characters. The developer character looks at it not with panic but with calm understanding. Beneath the screen flows a long ribbon of bytes representing the whole journey — signal fires, morse dots and dashes, an ASCII grid, unicode code points, UTF-8 variable bytes — connected as one continuous stream the developer now comprehends. Emotional arc from confusion to confidence, closing the loop with the opening. Simple geometric silhouettes, no real readable text. The restored characters and the understood flow of bytes marked a calm Toss-blue (#3182F6). Focal metaphor: the once-broken resume now restored, read by a developer who finally understands the byte stream beneath it. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 인코딩 책 삽화 프롬프트 완결(여는 글 + 1~18장 + 닫는 글). 이후 새 책/장은 이 아래에 같은 형식으로 추가된다.
