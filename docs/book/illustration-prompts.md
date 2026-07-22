@@ -388,4 +388,14 @@
 
 ---
 
-> 이후 장(16장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
+## 16장 · String.length가 거짓말할 때 — 이모지는 왜 2인가  (hero, 16:9, 현대 톤 · 은유적)
+- [ ] 저장: `public/images/books/encoding/16/webtoon.png`
+- 연결 스니펫: `![개발자가 이모지 하나를 자로 재는데 눈금이 1이 아니라 2를 가리키고, 한쪽에선 문자열을 가위로 자르다 이모지 한가운데가 잘려 반쪽짜리 깨진 조각이 떨어진다. 그런데 올바른 코드포인트 자와 자소 자로 바꿔 재니 제대로 1이 나오는 장면](/images/books/encoding/16/webtoon.png)`
+
+```
+/imagine prompt: Flat vector editorial illustration, minimal and clean, modern fintech explainer style (Toss / Kakao aesthetic). Limited harmonious palette: soft off-white paper background, charcoal ink outlines (#2B2F36), one primary accent of Toss blue (#3182F6) with deep blue (#1B64DA), neutral grey shadows (#8B95A1). Single clear focal metaphor, generous negative space, uncluttered composition, rounded geometric shapes, gentle soft shadows, subtle paper grain, calm and intelligent mood, muted tones, high shape clarity, low visual noise, opaque light background so the image floats on both light and dark pages. Era: modern, clean and diagrammatic. Scene: a developer figure measures a single emoji-like glyph with a ruler, but the ruler wrongly reads '2' instead of '1'. To one side, a pair of scissors cuts a string of tiles and slices right through the middle of an emoji glyph, dropping a broken half-piece (a mojibake fragment). Then, using a correct 'code point ruler' and a 'grapheme ruler', the same glyph is measured properly as '1'. Contrast between a wrong measuring tool and the right one. Simple geometric glyph and tile silhouettes, no real readable text. The correct ruler markings and the accurate measurement marked a faint calm Toss-blue (#3182F6). Focal metaphor: measuring one emoji — a wrong ruler says two and cuts it in half, the right ruler says one. --ar 16:9 --style raw --no text, letters, words, numbers, captions, speech bubbles, watermark, signature, logo, UI mockup, code editor screenshot, photorealism, 3D render, harsh contrast, neon, heavy gradients, cluttered background, busy details, extra fingers, deformed hands, distorted face, cartoon mascot, chibi, meme style
+```
+
+---
+
+> 이후 장(17장~)은 집필 사이클마다 이 아래에 같은 형식으로 추가된다.
