@@ -4,7 +4,7 @@ title: "7장. 서로를 방해하지 않는 척 — 격리성"
 
 # 7장. 서로를 방해하지 않는 척 — 격리성
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/07/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/07/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

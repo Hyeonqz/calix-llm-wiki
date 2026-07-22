@@ -3,7 +3,7 @@ book: transaction
 chapter: "01"
 slug: ledger-accountant
 source: content/books/transaction/01-ledger-accountant.md
-output: public/images/books/transaction/01/webtoon.png
+output: public/images/books/transaction/01/webtoon.webp
 insert_mode: replace_illustration_comment
 layout: book_webtoon_grid
 status: pending
@@ -58,11 +58,11 @@ status: pending
 
 ## Codex 처리 지시
 
-- 이미지를 `public/images/books/transaction/01/webtoon.png`에 생성한다.
+- 이미지를 `public/images/books/transaction/01/webtoon.webp`에 생성한다.
 - 생성 후 `content/books/transaction/01-ledger-accountant.md` 상단 삽화 주석을 아래 스니펫으로 교체한다.
 
 ```md
-![트랜잭션의 원자성과 일관성을 복식부기 이야기로 설명하는 인물 중심 웹툰](/images/books/transaction/01/webtoon.png)
+![트랜잭션의 원자성과 일관성을 복식부기 이야기로 설명하는 인물 중심 웹툰](/images/books/transaction/01/webtoon.webp)
 ```
 
 - 완료 후 이 요청서를 `docs/book/image-jobs/done/transaction-01-ledger-accountant.md`로 이동하거나 `status: done`으로 바꾼다.

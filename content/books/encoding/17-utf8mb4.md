@@ -2,15 +2,17 @@
 title: "17장. utf8은 진짜 UTF-8이 아니다 — MySQL utf8 vs utf8mb4"
 ---
 
-{/* 삽화 자리 — 웹툰식 요약 1컷 (hero, 16:9, 현대 톤 · 은유적)
-프롬프트: 'utf8'이라는 간판이 붙은 데이터베이스 창고 입구가 '3칸'짜리 좁은 문이다. 3칸짜리
-손님(한글·한자, BMP)은 통과하는데, 4칸을 차지하는 이모지 손님이 문틀에 걸려 'Incorrect
-string value' 팻말과 함께 입장 거부당한다. 옆에는 진짜 4칸까지 받는 넓은 'utf8mb4' 문.
-간판(utf8)이 거짓말하는 함정. 막힌 문=toss blue 미세.
-[STYLE PREFIX] + 현대 ERA + --ar 16:9 --style raw --no ...
-→ public/images/books/encoding/17/webtoon.png */}
-
 # 17장. utf8은 진짜 UTF-8이 아니다 — MySQL utf8 vs utf8mb4
+
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/encoding/17/webtoon.webp)
+
+*만화로 보는 요약 — 먼저 읽어보세요*
+
+**MySQL utf8은 3바이트 utf8mb3라 이모지를 담지 못하며, 저장소부터 커넥션까지 utf8mb4로 맞춰야 진짜 UTF-8이 완성된다.**
+
+> 면접 실전 질문: ① MySQL utf8과 utf8mb4의 핵심 차이는? ② 이모지 저장 오류가 나는 이유는? ③ 문자셋 전환 때 함께 확인할 경로는?
+
+---
 
 ## 배경 — UTF-8이라며 UTF-8을 거부한다
 

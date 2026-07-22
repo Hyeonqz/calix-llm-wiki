@@ -4,7 +4,7 @@ title: "11장. 표준이 말하지 않은 것 — 스냅샷 격리"
 
 # 11장. 표준이 말하지 않은 것 — 스냅샷 격리
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/11/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/11/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

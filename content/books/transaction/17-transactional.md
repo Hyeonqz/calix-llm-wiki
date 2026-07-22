@@ -4,7 +4,7 @@ title: "17장. 프레임워크가 숨긴 트랜잭션 경계"
 
 # 17장. 프레임워크가 숨긴 트랜잭션 경계
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/17/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/17/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

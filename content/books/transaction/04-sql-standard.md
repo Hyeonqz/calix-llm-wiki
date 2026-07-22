@@ -4,7 +4,7 @@ title: "4장. SQL 표준이 세운 약속"
 
 # 4장. SQL 표준이 세운 약속
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/04/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/04/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

@@ -4,7 +4,7 @@ title: "16장. 서로를 붙든 채 멈추다 — 데드락"
 
 # 16장. 서로를 붙든 채 멈추다 — 데드락
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/16/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/16/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

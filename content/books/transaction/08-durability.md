@@ -4,7 +4,7 @@ title: "8장. 한번 약속하면 영원히 — 지속성"
 
 # 8장. 한번 약속하면 영원히 — 지속성
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/08/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/08/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

@@ -4,7 +4,7 @@ title: "15장. 재난 후의 복구 — WAL"
 
 # 15장. 재난 후의 복구 — WAL
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/15/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/15/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

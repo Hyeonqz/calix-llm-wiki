@@ -4,7 +4,7 @@ title: "18장. 경계를 넘는 약속 — 분산 트랜잭션"
 
 # 18장. 경계를 넘는 약속 — 분산 트랜잭션
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/18/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/18/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 
