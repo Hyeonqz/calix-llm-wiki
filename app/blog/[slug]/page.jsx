@@ -10,6 +10,25 @@ import styles from '../blog.module.css'
 import Toc from '../Toc'
 import DownloadMd from '../DownloadMd'
 import HeroImage from '../HeroImage'
+import Mermaid from '../Mermaid'
+
+// ```mermaid 코드펜스는 다이어그램으로, 나머지 코드블록은 기존 하이라이트 그대로.
+const markdownComponents = {
+  code({ className = '', children }) {
+    if (String(className).includes('language-mermaid')) {
+      return <Mermaid chart={String(children).replace(/\n+$/, '')} />
+    }
+    return <code className={className}>{children}</code>
+  },
+  // mermaid 블록은 <pre> 래퍼 없이 렌더(코드박스 스타일이 다이어그램을 감싸지 않도록).
+  pre({ node, children }) {
+    const codeEl = node?.children?.[0]
+    const cls = codeEl?.properties?.className
+    const isMermaid =
+      Array.isArray(cls) && cls.some((c) => String(c).includes('language-mermaid'))
+    return isMermaid ? children : <pre>{children}</pre>
+  },
+}
 
 export function generateStaticParams() {
   return getPosts().map((post) => ({ slug: post.slug }))
@@ -58,7 +77,8 @@ export default async function BlogPostPage({ params }) {
         <article className={styles.prose}>
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeSlug, rehypeHighlight]}
+            rehypePlugins={[rehypeSlug, [rehypeHighlight, { ignoreMissing: true }]]}
+            components={markdownComponents}
           >
             {post.body}
           </ReactMarkdown>

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Hyeonqz/calix-wiki#readme",
   "dependencies": {
     "highlight.js": "^11.11.1",
+    "mermaid": "^11.16.0",
     "next": "^16.2.3",
     "nextra": "^4.6.1",
     "nextra-theme-docs": "^4.6.1",

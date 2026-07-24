@@ -593,3 +593,26 @@
     border-radius: 12px;
   }
 }
+
+/* ---------- mermaid 다이어그램 ---------- */
+.mermaid {
+  margin: 1.75em 0;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.mermaid :global(svg) {
+  max-width: 100%;
+  height: auto;
+}
+
+.mermaidError {
+  white-space: pre-wrap;
+  border: 1px solid #e5484d;
+  border-radius: 8px;
+  padding: 12px 14px;
+  color: #e5484d;
+  background: rgba(229, 72, 77, 0.06);
+  font-size: 0.85em;
+  overflow-x: auto;
+}
