@@ -4,7 +4,7 @@ title: "5장. 전부 아니면 전무 — 원자성"
 
 # 5장. 전부 아니면 전무 — 원자성
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/05/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/05/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

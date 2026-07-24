@@ -4,7 +4,7 @@ title: "9장. 유령과 오염 — 동시성 괴현상"
 
 # 9장. 유령과 오염 — 동시성 괴현상
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/09/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/09/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

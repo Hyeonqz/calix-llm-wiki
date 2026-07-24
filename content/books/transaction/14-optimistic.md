@@ -4,7 +4,7 @@ title: "14장. 믿음의 문제 — 낙관적 제어"
 
 # 14장. 믿음의 문제 — 낙관적 제어
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/14/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/14/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

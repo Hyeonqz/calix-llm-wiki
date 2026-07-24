@@ -4,7 +4,7 @@ title: "2장. 파일과 씨름하던 프로그래머들"
 
 # 2장. 파일과 씨름하던 프로그래머들
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/02/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/02/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

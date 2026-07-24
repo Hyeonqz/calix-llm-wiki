@@ -75,7 +75,7 @@ book: transaction
 chapter: "01"
 slug: ledger-accountant
 source: content/books/transaction/01-ledger-accountant.md
-output: public/images/books/transaction/01/webtoon.png
+output: public/images/books/transaction/01/webtoon.webp
 insert_mode: replace_illustration_comment
 layout: book_webtoon_grid
 status: pending
@@ -119,7 +119,7 @@ status: pending
 - 생성 후 `source` 문서의 삽화 주석을 아래 형식으로 교체한다.
 
 ```md
-![alt text](/images/books/transaction/01/webtoon.png)
+![alt text](/images/books/transaction/01/webtoon.webp)
 ```
 
 - 완료 후 이 요청서의 `status`를 `done`으로 바꾸거나 `done/` 폴더로 이동한다.

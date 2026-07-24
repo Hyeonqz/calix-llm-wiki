@@ -4,7 +4,7 @@ title: "10장. 네 개의 문 — 격리 수준"
 
 # 10장. 네 개의 문 — 격리 수준
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/10/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/10/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

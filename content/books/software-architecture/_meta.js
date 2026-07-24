@@ -22,6 +22,9 @@ export default {
   'step-14-brownfield': '14. 브라운필드 이행',
   'step-15-choosing-and-adr': '15. 선택의 기술과 ADR',
 
+  '_closing': { type: 'separator', title: '닫는 글' },
+  '99-closing': '닫는 글 · 다시, 변경 앞에서',
+
   '_appendix': { type: 'separator', title: '부록' },
   'appendix-a-d': '부록 A~D · 용어집·연표·참고문헌',
   'appendix-e-diagrams': '부록 E · 다이어그램',

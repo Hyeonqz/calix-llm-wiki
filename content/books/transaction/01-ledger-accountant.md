@@ -4,7 +4,7 @@ title: "1장. 장부 앞의 회계사"
 
 # 1장. 장부 앞의 회계사
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/01/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/01/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

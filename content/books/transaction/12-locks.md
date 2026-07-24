@@ -4,7 +4,7 @@ title: "12장. 자물쇠를 채우다 — 락"
 
 # 12장. 자물쇠를 채우다 — 락
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/12/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/12/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

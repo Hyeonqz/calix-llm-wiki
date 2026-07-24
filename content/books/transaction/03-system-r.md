@@ -4,7 +4,7 @@ title: "3장. System R과 하나의 단어"
 
 # 3장. System R과 하나의 단어
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/03/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/03/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

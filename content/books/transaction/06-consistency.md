@@ -4,7 +4,7 @@ title: "6장. 규칙은 깨지지 않는다 — 일관성"
 
 # 6장. 규칙은 깨지지 않는다 — 일관성
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/06/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/06/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 

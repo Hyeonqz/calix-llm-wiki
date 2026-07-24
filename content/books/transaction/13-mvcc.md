@@ -4,7 +4,7 @@ title: "13장. 시간을 여러 겹으로 — MVCC"
 
 # 13장. 시간을 여러 겹으로 — MVCC
 
-![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/13/webtoon.png)
+![만화로 보는 요약 — 먼저 읽어보세요](/images/books/transaction/13/webtoon.webp)
 
 *만화로 보는 요약 — 먼저 읽어보세요*
 
